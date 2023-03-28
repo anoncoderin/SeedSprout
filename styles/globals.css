@@ -1,18 +1,17 @@
 :root {
 /** Colors*/
-
---dark-green: #1D4923;
---forest-green :#3B9545;
---matris-green : #5FBF6A;
---background-green: #EBFFEE;
---dark-brown: #392105;
---chocolate-brown:#844D0B;
---Sepia-Brown: #603808;
---orange:#FF8800;
---blue:#4F86F7;
-
-
-
-
+--lightGreen: #EBFFEE;
+--mantisGreen: #5FBF6A;
+--sproutGreen: #3B9545;
+--polyGreen: #1D4923;
+--chocolateBrown: #844D0B;
+--seedBrown: #603808;
+--darkBrown: #392105;
+--vegeOrange: #FF8800;
+--fruitBlue: #4F86F7;
+--beige: #F8F9F0;
 }
 
+body{
+    margin: 0;
+}
