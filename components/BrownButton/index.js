@@ -8,7 +8,7 @@ export default function GreenButton({
     
     return(
         <>
-        <Link href={link} style={{ textDecoration: 'none'}}>
+        <Link className={styles.linkContainer} href={link} style={{ textDecoration: 'none'}}>
         <div className={styles.buttonContainer}>
             <p>{text}</p>
         </div>
