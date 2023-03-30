@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
 :root {
 /** Colors*/
 --lightGreen: #EBFFEE;
@@ -13,5 +14,15 @@
 }
 
 body{
+    background-color: var(--beige);
     margin: 0;
 }
+h1 h2 h3 h4 h5 {
+    font-family: 'Jost';
+    
+}
+p{
+    font-family: 'Jost';
+    font-size: 20px;
+}
+
