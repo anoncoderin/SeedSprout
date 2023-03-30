@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/tutorial.module.css";
+import styles from "@/styles/Tutorial.module.css";
 import NavBar from "@/components/NavBar";
 import GreenButton from "@/components/GreenButton";
 import BrownButton from "@/components/BrownButton";
