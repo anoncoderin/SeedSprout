@@ -57,7 +57,7 @@ export default function NavBar() {
             </Link>
           </div>
           <div>
-            <Link href='/'>
+            <Link href='/tutorial'>
               <div>
                 <Image src='/icons/TutorialIcon.svg' width={20} height={20} />
                 Tutorial

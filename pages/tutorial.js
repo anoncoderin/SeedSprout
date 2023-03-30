@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
           <br></br>
-          <GreenButton>Continue</GreenButton>
+          <GreenButton text="Continue" link="/"/>
         </div>
         
       </main>
