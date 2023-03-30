@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <div className={styles.navBarContainer}>
       <div className={styles.logoContainer}>
-        <Image src='/logo/logo.svg' width={40} height={40} />
+        <Image src='/logo/logo.svg' width={40} height={38} />
       </div>
       <div
         className={styles.hamburgerContainer}
@@ -23,6 +23,7 @@ export default function NavBar() {
       </div>
       {overlay && (
         <div className={styles.popupContent}>
+          {/**Copy and paste a div to add items to navBar. May need to adjust height of overlay in css file aswell.*/}
           <div>
             <Link href='/'>
               <div>
@@ -36,6 +37,14 @@ export default function NavBar() {
               <div>
                 <Image src='/icons/AboutUsIcon.svg' width={20} height={20} />
                 About Us
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href='/produceCatalogue'>
+              <div>
+                <Image src='/icons/CatalogueIcon.svg' width={20} height={20} />
+                Catalogue
               </div>
             </Link>
           </div>

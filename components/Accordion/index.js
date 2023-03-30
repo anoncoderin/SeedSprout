@@ -20,7 +20,7 @@ export default function Accordion() {
     <>
       {/* Div that contains the entire accordion */}
       <div className={styles.accordion}>
-      <div>Fruits</div>
+        <h3 className={styles.itemTypeHeader}>Fruits</h3>
         {
           /* Maps through fruitsAndVeggiesCatalogue data to make an accordion for each item */
           fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, index) => (
@@ -30,8 +30,8 @@ export default function Accordion() {
               {/**Runs function to open and close item*/}
               <div className={styles.accordionHeader} onClick={() => handleAccordionClick(index)}>
                 {item.title}
-                <div>
-                  {index === activeIndex ? "↑" : "↓"}
+                <div className={styles.arrowContainer}>
+                  {index === activeIndex ? <Image src='/icons/UpArrow.svg' width={22} height={22} /> : <Image src='/icons/DownArrow.svg' width={22} height={22} />}
                 </div>
               </div>
               {/**Section appears when you click on item*/}
@@ -39,8 +39,10 @@ export default function Accordion() {
                 index === activeIndex && (
                   <div className={styles.accordionContent}>
                     {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
-                    <h1 style={{ color: 'var(--vegeOrange)' }}>Tips on growing {item.title}</h1>
-                    {item.content}
+                    <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
+                    <p className={styles.itemContentP}>
+                      {item.content}
+                    </p>
                   </div>
                 )
               }
@@ -48,7 +50,7 @@ export default function Accordion() {
 
           ))
         }
-        <div>Vegetables</div>
+        <h3 className={styles.itemTypeHeader}>Vegetables</h3>
         {
           fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, index) => (
             //Filters through data and grabs items with type === "Vegetable"
@@ -56,10 +58,10 @@ export default function Accordion() {
             <div className={styles.accordionSection} key={index}>
               {/**Runs function to open and close item*/}
               <div className={styles.accordionHeader} onClick={() => handleAccordionClick(index)}>
-                
+
                 {item.title}
-                <div>
-                  {index === activeIndex ? <Image src='/icons/UpArrow.svg' width={10} height={10}/> : "↓"}
+                <div className={styles.arrowContainer}>
+                  {index === activeIndex ? <Image src='/icons/UpArrow.svg' width={22} height={22} /> : <Image src='/icons/DownArrow.svg' width={22} height={22} />}
                 </div>
               </div>
               {/**Section appears when you click on item*/}
@@ -67,8 +69,10 @@ export default function Accordion() {
                 index === activeIndex && (
                   <div className={styles.accordionContent}>
                     {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
-                    <h1 style={{ color: 'var(--vegeOrange)' }}>Tips on growing {item.title}</h1>
-                    {item.content}
+                    <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
+                    <p className={styles.itemContentP}>
+                      {item.content}
+                    </p>
                   </div>
                 )
               }
