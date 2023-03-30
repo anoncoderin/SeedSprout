@@ -1,19 +1,23 @@
 export const fruitsAndVeggiesCatalogue = [
     {
-      title: "Kale",
+      title: 'Kale',
+      type: 'Vegetable',
       img: '/fruitsAndVeggiesImages/kale.png',
-      content: "Lorem",
+      content: 'Lorem',
       color: 'var(--vegeOrange)'
     },
     {
-      title: "fruit 2",
-      img: 'public/logo/logo.svg',
-      content: "Lorem"
+      title: 'Okra',
+      type: 'Vegetable',
+      img: '/fruitsAndVeggiesImages/kale.png',
+      content: 'Lorem',
+      color: 'var(--vegeOrange)'
     },
     {
-      title: "fruit 3",
-      img: '/',
-      content: "Lorem"
-      
+      title: 'Strawberries',
+      type: 'fruit',
+      img: '/fruitsAndVeggiesImages/kale.png',
+      content: 'Lorem',
+      color: 'var(--vegeOrange)'
     }
   ];

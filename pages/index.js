@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import GreenButton from '@/components/GreenButton'
 import BrownButton from '@/components/BrownButton'
-import Accordion from '@/components/Accordion'
+
 
 export default function Home() {
   return (
@@ -16,10 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
-        <NavBar/>
-        <GreenButton text='Get Started' link='/'/>
-        <BrownButton text='Lorem' link='/'/>
-        <Accordion/>
+        <NavBar />
+        <GreenButton text='Get Started' link='/' />
+        <BrownButton text='Lorem' link='/' />
+        <BrownButton text='Catalogue' link='/produceCatalogue' />
       </main>
     </>
   )
