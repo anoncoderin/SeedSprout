@@ -2,7 +2,18 @@
     height: 170vh;
     background: url(/graphics/fruitsection.svg) no-repeat bottom;
     background-size: 100%;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 
 .header{
@@ -16,14 +27,14 @@
 .blueberries_description{
    text-align: center;
     justify-content: center;
-    margin: 40px;
-   
+   margin: 30px;
+   width: 400px;
 }
 
 .tips{
     text-align: center;
     justify-content: center;
-    margin: 40px;
+   
 }
 
 .numbered_tips{
@@ -47,13 +58,9 @@
 }
 
 
-
 .backButton{
   display: flex;
   justify-content: center;
-  margin-top: -10px;
+  margin-top: 45px;
   
 }
-
-
-
