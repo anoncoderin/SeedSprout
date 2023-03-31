@@ -7,14 +7,23 @@
     padding-left: 4vw;
     padding-right: 4vw;
     margin-top: -15px;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
     
 }
 
 .Header{
     font-family: 'Jost';
     font-size: 34px;
-    margin-left: 12px;
+    text-align: center;
 
 }
 
@@ -23,7 +32,7 @@
     justify-content: center;
     gap: 70px;
     margin-bottom: 70px;
-    margin-top:20px  ;
+    margin-top:20px;
 }
 .section_madhu{
     display: flex;
@@ -55,4 +64,13 @@
 .name{
     font-size: 24px;
     font-family: 'Jost';
+}
+
+
+
+@media screen and (min-width:850px){
+    .container{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
