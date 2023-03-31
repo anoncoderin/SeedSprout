@@ -1,0 +1,59 @@
+.main{ 
+    height: 170vh;
+    background: url(/graphics/fruitsection.svg) no-repeat bottom;
+    background-size: 100%;
+}
+
+
+.header{
+    color: var(--fruitBlue);
+}
+
+.header_tips{
+    color: var(--fruitBlue);
+}
+
+.blueberries_description{
+   text-align: center;
+    justify-content: center;
+    margin: 40px;
+   
+}
+
+.tips{
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.numbered_tips{
+    display: flex;
+    text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   text-align: left;
+  
+}
+
+.header_tips{
+    font-size: 24px;
+   
+}
+
+.numbered{
+    color: var(--fruitBlue);
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+
+
+.backButton{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  
+}
+
+
+

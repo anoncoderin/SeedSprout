@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useState } from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import styles from '@/components/NavBar/NavBar.module.css'
 
 export default function NavBar() {
@@ -33,7 +33,7 @@ export default function NavBar() {
             </Link>
           </div>
           <div>
-            <Link href='/'>
+            <Link href='/aboutUs'>
               <div>
                 <Image src='/icons/AboutUsIcon.svg' width={20} height={20} />
                 About Us
