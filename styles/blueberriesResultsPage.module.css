@@ -1,5 +1,5 @@
 .main{ 
-    height: 170vh;
+    height: 1296px;
     background: url(/graphics/fruitsection.svg) no-repeat bottom;
     background-size: 100%;
     align-items: center;
@@ -28,12 +28,13 @@
    text-align: center;
     justify-content: center;
    margin: 30px;
-   width: 400px;
+   width: 350px;
 }
 
 .tips{
     text-align: center;
     justify-content: center;
+    width: 350px;
    
 }
 
@@ -63,4 +64,11 @@
   justify-content: center;
   margin-top: 45px;
   
+}
+
+
+@media screen and (min-width:600px){
+    .main{
+        background:none
+    }
 }
