@@ -1,14 +1,12 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import styles from '@/components/GreenButton/GreenButton.module.css'
+import styles from '@/components/BrownButtonSmall/BrownButtonSmall.module.css'
 
-export default function GreenButton({
-    link = '',
+export default function BrownButtonSmall({
+   link = '',
     text = '',
     img = '',
     width = '',
     height = '',
-    smalltext = ''
 }) {
 
     return (
@@ -16,8 +14,7 @@ export default function GreenButton({
             <Link className={styles.linkContainer} href={link} style={{ textDecoration: 'none' }}>
                 <div className={styles.buttonContainer}>
                     {img === '' ? '' : <Image className={styles.graphicImage} src={img} width={width} height={height} />}
-                    <p>{text} </p>
-                    {smalltext === '' ? '' : <p className={styles.smallText}>{smalltext}</p>}
+                    <p>{text}</p>
                 </div>
             </Link>
         </>

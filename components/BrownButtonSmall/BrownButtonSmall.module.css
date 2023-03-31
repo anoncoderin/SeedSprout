@@ -2,10 +2,10 @@
 
 .linkContainer{
     font-family: 'Jost', sans-serif;
-    font-size: 2rem;
-    background-color: var(--mantisGreen);
-    width: 12.063rem;
-    height: 3.813rem;
+    font-size: 1.523rem;
+    background-color: var(--seedBrown);
+    width: 9.188rem;
+    height: 2.905rem;
     border-radius: 15px;
     color: white;
     display: flex;
@@ -13,26 +13,7 @@
     align-items: center;
 }
 
-.linkContainer:focus{
-    background-color: var(--polyGreen);
-}
 
 .buttonContainer > p{
     margin: 0;
-}
-
-.buttonContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.45rem;
-}
-.graphicImage{
-    overflow: visible;
-    margin-left: -70px;
-}
-
-.smallText{
- font-size: 1rem;   
- 
 }

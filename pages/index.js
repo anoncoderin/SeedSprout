@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
-        <NavBar />
+        <NavBar/>
         <GreenButton text='Get Started' link='/' />
         <BrownButton text='Lorem' link='/' />
         <BrownButton text='Catalogue' link='/produceCatalogue' />

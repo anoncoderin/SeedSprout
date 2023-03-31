@@ -1,0 +1,37 @@
+.main{
+    height: 100vh;
+}
+
+.bodyContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border: solid;
+    border-color: var(--sproutGreen);
+    border-width: 2px;
+}
+
+.questionHeader{
+    text-align: center;
+    margin: 0;
+}
+
+.backNextContainer{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
