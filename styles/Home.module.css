@@ -1,3 +1,21 @@
 .main{
 
 }
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 02.9375rem;
+}
+
+.home_buttons{
+display: flex;
+flex-direction: column;
+gap: 0.9375rem;
+}
+.para_main_page{
+    margin-left: 5.9375rem;
+    margin-right: 4.9375rem;
+    margin-bottom: 2.935rem;
+}
+
