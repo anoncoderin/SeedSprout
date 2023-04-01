@@ -16,6 +16,9 @@
 .linkContainer:focus{
     background-color: var(--polyGreen);
 }
+.linkContainer:active{
+    background-color: var(--polyGreen);
+}
 
 .buttonContainer > p{
     margin: 0;
@@ -27,6 +30,7 @@
     align-items: center;
     gap: 0.45rem;
 }
+
 .graphicImage{
     overflow: visible;
     margin-left: -70px;

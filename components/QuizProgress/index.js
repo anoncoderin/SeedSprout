@@ -8,7 +8,7 @@ const router = useRouter();
     return(
         <>
         {
-         router.pathname === '/quizPageOne' ? <Image src={'/graphics/quizProgress1.svg'} width={200} height={100}/> : router.pathname === '/quizPageTwo' ? <Image src={'/graphics/quizProgress2'} width={200} height={100}/> : router.pathname === '/quizPageThree' ? <Image src={'/graphics/quizProgress3'} width={200} height={100}/> : router.pathname = '/quizPageFour' ? <Image src={'/graphics/quizProgress4'} width={200} height={100}/> : 'baboy'
+         router.pathname === '/quizPageOne' ? <Image src={'/graphics/quizProgress1.svg'} width={200} height={100}/> : router.pathname === '/quizPageTwo' ? <Image src={'/graphics/quizProgress-2.svg'} width={200} height={100}/> : router.pathname === '/quizPageThree' ? <Image src={'/graphics/quizProgress-3.svg'} width={200} height={100}/> : router.pathname = '/quizPageFour' ? <Image src={'/graphics/quizProgress-4.svg'} width={200} height={100}/> : ''
         }
         </>
     )

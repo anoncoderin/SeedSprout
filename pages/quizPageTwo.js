@@ -5,7 +5,7 @@ import BrownButtonSmall from '@/components/BrownButtonSmall'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
 
-export default function quizPageOne() {
+export default function quizPageTwo() {
 
     return (
         <>
@@ -20,13 +20,13 @@ export default function quizPageOne() {
                 <div className={styles.bodyContent}>
                     <QuizProgress />
                     <div className={styles.quizContainer}>
-                        <h1 className={styles.questionHeader}>Which one do you want to grow?</h1>
-                        <GreenButton text='Fruits'smalltext='‎ ‎ ‎ ‎'  img='/graphics/fruitBundle.svg' width='90' height='150' />
-                        <GreenButton text='Veggie'  img='/graphics/vegetableBundle.svg' width='100' height='150'/>
+                        <h1 className={styles.questionHeader}>How large is your garden bed?</h1>
+                        <GreenButton text='Small' smalltext='>9ft²' img='/graphics/smallGarden.svg' width='60' height='150' />
+                        <GreenButton text='Large' smalltext='>9ft²' img='/graphics/largeGarden.svg' width='80' height='150'/>
                     </div>
                     <div className={styles.backNextContainer}>
-                        <BrownButtonSmall text='Back' link='/'/>
-                        <BrownButtonSmall text='Next' link='/quizPageTwo' />
+                        <BrownButtonSmall text='Back' link='quizPageOne' />
+                        <BrownButtonSmall text='Next' link='/quizPageThree' />
                     </div>
                 </div>
             </main>
