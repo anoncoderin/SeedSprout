@@ -28,7 +28,7 @@ export default function Results() {
 
                         <div className={styles.fruit_results}>
                             <a href="/blueberriesResultsPage">
-                                <Image src='/summaryGraphics/fruits/blueberries.svg' width={293} height={136} link="/aboutUs" />
+                                <Image src='/summaryGraphics/fruits/blueberries.svg' width={293} height={136} />
                             </a>
                             <a href="/">
                                 <Image src='summaryGraphics/fruits/blackberries.svg' width={293} height={136} />
