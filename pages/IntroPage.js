@@ -41,58 +41,66 @@ export default function Home() {
             </p>
           </div>
           <br></br>
-          
+
           <div className={styles.inner_container}>
             <h1 className={styles.h1_size}>The Benefits of Gardening</h1>
             <br></br>
             <h2 className={styles.h2_size}>
-                  Fresh and healthy <br></br>produce
-                </h2>
+              Fresh and healthy <br></br>produce
+            </h2>
             <div className={styles.into_benefit_textimage}>
-              <div>
+              <div className={styles.para_inner_left}>
                 <p>
                   Gardening can provide access to fresh and healthy produce.
                 </p>
               </div>
-              <div>
+              <div className={styles.intro_image}>
                 <Image
-                  src="/graphics/fruit-basket.png"
-                  width={130}
-                  height={100}
+                  src="/graphics/fruitBasket.svg"
+                  width={150}
+                  height={110}
                 ></Image>
               </div>
-              
             </div>
             <hr className={styles.hr_line}></hr>
-            
-            <h2 className={styles.h2_size}>
+
+            <h2 className={styles.h2_size_right}>
               Environmental <br></br>benefits
             </h2>
             <hr></hr>
             <div className={styles.into_benefit_textimage}>
-              
               <Image
-                src="/graphics/Environment_earth.png"
-                width={100}
-                height={100}
+                src="/graphics/environmentEarth.svg"
+                width={130}
+                height={130}
               ></Image>
-              <p>Gardening can help reduce your carbon footprint.</p>
+              <div  className={styles.para_inner_right}>
+                <p>Gardening can help reduce your carbon footprint.</p>
+              </div>
             </div>
             <hr className={styles.hr_line}></hr>
             <h2 className={styles.h2_size}>
               Sense of <br></br>accomplishment
             </h2>
             <div className={styles.into_benefit_textimage}>
-              <p>
-                Seeing your garden grow can give you a sense of accomplishment.
-              </p>
-              <Image src="/graphics/bench.png" width={130} height={80}></Image>
+              <div className={styles.para_inner_left}>
+                <p>
+                  Seeing your garden grow can give you a sense of
+                  accomplishment.
+                </p>
+              </div>
+              <Image src="/graphics/bench.svg" width={140} height={90}></Image>
             </div>
           </div>
         </div>
         <div className={styles.footer_box}>
-            <Image  className={styles.footer_box_image} src="/graphics/tree4.png" width={1000} height={18}></Image>
-            <div className={styles.footer_box_green}></div>
+          <Image
+            className={styles.footer_box_image}
+            src="/graphics/trees.svg"
+            width={1000}
+            height={18}
+          ></Image>
+          <div className={styles.footer_box_green}></div>
         </div>
       </main>
     </>

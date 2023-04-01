@@ -8,11 +8,13 @@
     font-weight: bold;
     font-family: 'Jost';
 }
+
 .para_main{
     display: flex;
     flex-direction: column;
     margin-left: 10vw;
     margin-right: 10vw;
+    text-align: left;
 }
 .inner_container{
     display: flex;
@@ -20,6 +22,17 @@
     border: var(--polyGreen) solid 2px;
     margin-left: 7px;
     margin-right: 7px;
+    padding-bottom: 0.935rem;
+}
+.para_inner_left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.para_inner_right{
+    display: flex;
+    flex-direction: column;
+    text-align: right;  
 }
 .into_benefit_textimage{
     display: flex;
@@ -28,6 +41,7 @@
     margin-right: 10vw;
     gap: 8vw;
 }
+
 .h2_size{
     font-family: 'Jost';
     font-weight: bold;
@@ -36,6 +50,15 @@
     flex-direction: column;
     text-align: left;
     margin-left: 10vw;
+}
+.h2_size_right{
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 10vw;
 }
 .hr_line{
     width: 80%;
@@ -56,4 +79,7 @@
     width: 100vw;
     height: 10vh;
     background-color: var(--polyGreen); 
+}
+.intro_image{
+    padding-bottom: .935rem;
 }
