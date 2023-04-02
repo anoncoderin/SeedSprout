@@ -16,6 +16,8 @@
 .grpahic_results{
     display: flex;
     justify-content: center;
+    margin-right: 2.935rem;
+
 }
 
 .results_description{
@@ -44,6 +46,18 @@
     gap: 20px;
     margin-bottom: 50px ;
 }
+.footer_container .btn_footer{
+    position: absolute;
+
+}
+.footer_container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 
 
