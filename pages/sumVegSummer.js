@@ -43,7 +43,7 @@ export default function Results() {
                     </div>
                     <div className={styles.footer_container}>
                     <Image src='VegGraphicImage/footerGraphicVeg.svg' width={414} height={136} />
-                        <div className={styles.btn_footer}><BrownButton text='Back' /></div>
+                        <div className={styles.btn_footer}><BrownButton text='Restart Quiz' /></div>
                         </div>
                 </div>
             </main>
