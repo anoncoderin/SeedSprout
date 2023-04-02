@@ -1,6 +1,6 @@
 .main{ 
     height: 1496px;
-    background: url(/graphics/fruitsection.svg) no-repeat bottom;
+    background: url(/summaryGraphics/VegGraphicImage/footerGraphicVeg.svg) no-repeat bottom;
     background-size: 100%;
     align-items: center;
     justify-content: center;
@@ -43,6 +43,7 @@
 .fruit_results{
     display: flex;
     flex-direction: column; 
+    justify-content: center;
     gap: 20px;
     margin-bottom: 50px ;
 }
