@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import NavBar from "@/components/NavBar";
 import GreenButton from "@/components/GreenButton";
 import BrownButton from "@/components/BrownButton";
+import ResultsItems from "@/components/ResultsItems";
 
 export default function Home() {
   return (
@@ -24,7 +25,6 @@ export default function Home() {
             src="/logo/logo-with-text.svg"
             width={350}
             height={250}
-            
           ></Image>
           <div className={styles.para_main_page}>
           <p>
@@ -38,6 +38,7 @@ export default function Home() {
             <BrownButton text="Catalogue" link="/produceCatalogue" />
           </div>
         </div>
+        
       </main>
     </>
   );
