@@ -17,11 +17,11 @@
 
 
 .header{
-    color: var(--fruitBlue);
+    color: rgb(79, 134, 247);
 }
 
 .header_tips{
-    color: var(--fruitBlue);
+    color: rgb(79, 134, 247);
 }
 
 .blueberries_description{
@@ -53,7 +53,7 @@
 }
 
 .numbered{
-    color: var(--fruitBlue);
+    color: rgb(79, 134, 247);
     margin-top: 9px;
     margin-right: 10px;
 }

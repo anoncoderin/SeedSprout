@@ -1,0 +1,16 @@
+.mainContainer{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ width: 142px;
+ height: 183px;
+ margin: 7px;
+ padding-top: 5px;
+
+}
+
+.text{
+    color: black;
+    font-size: 16px;
+}
