@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className={styles.h1_size}>Tutorial</h1>
           <div className={styles.para_main}>
             <div className={styles.girl_image}>
-            <Image src="/graphics/Girl-intro.png" width={250} height={250}></Image>
+            <Image src="/graphics/girlGardening.svg" width={250} height={250}></Image>
             </div>
             <p>
               Introducing our plant growing app, designed to help garden

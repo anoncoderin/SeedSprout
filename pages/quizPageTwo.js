@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import NavBar from '@/components/NavBar'
-import GreenButton from '@/components/GreenButton'
+import GreenButtonQuiz from '@/components/GreenButtonQuiz'
 import BrownButtonSmall from '@/components/BrownButtonSmall'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
@@ -21,8 +21,8 @@ export default function quizPageTwo() {
                     <QuizProgress />
                     <div className={styles.quizContainer}>
                         <h1 className={styles.questionHeader}>How large is your garden bed?</h1>
-                        <GreenButton text='Small' smalltext='>9ft²' img='/graphics/smallGarden.svg' width='60' height='150' />
-                        <GreenButton text='Large' smalltext='>9ft²' img='/graphics/largeGarden.svg' width='80' height='150'/>
+                        <GreenButtonQuiz text='Small' smalltext='>9ft²' img='/graphics/smallGarden.svg' width='60' height='150' />
+                        <GreenButtonQuiz text='Large' smalltext='>9ft²' img='/graphics/largeGarden.svg' width='80' height='150'/>
                     </div>
                     <div className={styles.backNextContainer}>
                         <BrownButtonSmall text='Back' link='quizPageOne' />

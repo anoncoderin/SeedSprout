@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.linkContainer{
+.buttonContainer {
     font-family: 'Jost', sans-serif;
     font-size: 2rem;
     background-color: var(--mantisGreen);
@@ -11,33 +11,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
-.linkContainer:focus{
-    background-color: var(--polyGreen);
-}
-.linkContainer:active{
-    background-color: var(--polyGreen);
-}
-
-.buttonContainer > p{
+.container>p {
     margin: 0;
 }
 
-.buttonContainer{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.45rem;
     height: 4rem;
+    width: 100%;
 }
 
-.graphicImage{
-    overflow: visible;
+.graphicImage {
     margin-left: -70px;
 }
 
-.smallText{
- font-size: 1rem;   
- 
+.smallText {
+    font-size: 1rem;
+
 }
