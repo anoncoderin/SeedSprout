@@ -1,0 +1,16 @@
+.container {
+        font-family: 'Jost', sans-serif;
+        font-size: 2rem;
+        background-color: var(--mantisGreen);
+        width: 12.063rem;
+        height: 3.813rem;
+        border-radius: 15px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.graphicImage {
+    margin-left: -70px;
+}

@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react'
 import quizPageTwo from './quizPageTwo'
 
 
-export default function quizPageOne() {
+export default function QuizPage() {
 
     const [data, setData] = useState('');
     
@@ -44,8 +44,8 @@ export default function quizPageOne() {
                         </span>
                     </div>
                     <div className={styles.backNextContainer}>
-                        <Button size={["9.188rem", "2.905rem"]} text='Back' binary={data} link='/'/>
-                        <Button size={["9.188rem", "2.905rem"]} text='Next' binary={data} link='/quizPageTwo' />
+                        <Button size={["9.188rem", "2.905rem"]} text='Back' binary={data} />
+                        <Button size={["9.188rem", "2.905rem"]} text='Next' binary={data} />
                     </div>
                 </div>
             </main>
