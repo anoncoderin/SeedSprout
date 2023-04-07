@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import styles from '@/components/GreenButtonQuiz/GreenButtonQuiz.module.css'
+import styles from './QuizOptions.module.css'
 
-export default function GreenButtonQuiz({
+export default function QuizOptions({
     text = '',
     img = '',
     width = '',
@@ -10,13 +10,13 @@ export default function GreenButtonQuiz({
 }) {
     return (
         <>
-            <button className={styles.buttonContainer}>
+            <div className={styles.buttonContainer}>
                 <div className={styles.container}>
                     <Image className={styles.graphicImage} src={img} width={width} height={height} />
                     <p>{text}</p>
                     <p className={styles.smallText}>{smalltext}</p>
                 </div>
-            </button>
+            </div>
         </>
     )
 }

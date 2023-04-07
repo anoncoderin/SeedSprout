@@ -2,8 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import NavBar from "@/components/NavBar";
-import GreenButton from "@/components/GreenButton";
-import BrownButton from "@/components/BrownButton";
+import Button from "@/components/Button";
 import ResultsItems from "@/components/ResultsItems";
 
 export default function Home() {
@@ -33,9 +32,9 @@ export default function Home() {
           </p>
           </div>
           <div className={styles.home_buttons}>
-            <GreenButton text="Get Started" link="/" />
-            <BrownButton text="About Us" link="/aboutUs" />
-            <BrownButton text="Catalogue" link="/produceCatalogue" />
+            <Button size={["12.063rem", "3.813rem"]} text="Get Started" link="/" color='var(--mantisGreen)'/>
+            <Button size={["12.063rem", "3.813rem"]} text="About Us" link="/aboutUs" />
+            <Button size={["12.063rem", "3.813rem"]} text="Catalogue" link="/produceCatalogue" />
           </div>
         </div>
         

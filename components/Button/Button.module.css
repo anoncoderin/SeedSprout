@@ -2,18 +2,29 @@
 
 .linkContainer{
     font-family: 'Jost', sans-serif;
-    font-size: 2rem;
+    font-size: 150%;
     background-color: var(--seedBrown);
-    width: 12.063rem;
-    height: 3.813rem;
+    
     border-radius: 15px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*  large
+    width: 12.063rem;
+    height: 3.813rem;
+
+*/
 
 
-.buttonContainer > p{
+/* .buttonContainer > span{
     margin: 0;
+    text-align: center;
+    align-content: center;
+} */
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

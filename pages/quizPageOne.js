@@ -1,11 +1,26 @@
 import Head from 'next/head'
 import NavBar from '@/components/NavBar'
-import GreenButtonQuiz from '@/components/GreenButtonQuiz'
-import BrownButtonSmall from '@/components/BrownButtonSmall'
+import QuizOptions from '@/components/QuizOptions'
+import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
+import { useState, useEffect } from 'react'
+import quizPageTwo from './quizPageTwo'
+
 
 export default function quizPageOne() {
+
+    const [data, setData] = useState('');
+    
+    const nextPage = (binary) => {
+        setData(binary);
+    }
+
+    useEffect(() => {
+        console.log(data);
+    }, [data])
+
+    
 
     return (
         <>
@@ -21,12 +36,16 @@ export default function quizPageOne() {
                     <QuizProgress />
                     <div className={styles.quizContainer}>
                         <h1 className={styles.questionHeader}>Which one do you want to grow?</h1>
-                        <GreenButtonQuiz text='Fruits'  img='/graphics/fruitBundle.svg' width='90' height='150' />
-                        <GreenButtonQuiz text='Fruits'  img='/graphics/vegetableBundle.svg' width='100' height='150'/>
+                        <span onClick={() => nextPage('0')}>
+                            <QuizOptions text='Fruits' img='/graphics/fruitBundle.svg' width='90' height='150' />
+                        </span>
+                        <span onClick={() => nextPage('1')}>
+                            <QuizOptions text='Veggies'  img='/graphics/vegetableBundle.svg' width='100' height='150'/>
+                        </span>
                     </div>
                     <div className={styles.backNextContainer}>
-                        <BrownButtonSmall text='Back' link='/'/>
-                        <BrownButtonSmall text='Next' link='/quizPageTwo' />
+                        <Button size={["9.188rem", "2.905rem"]} text='Back' binary={data} link='/'/>
+                        <Button size={["9.188rem", "2.905rem"]} text='Next' binary={data} link='/quizPageTwo' />
                     </div>
                 </div>
             </main>

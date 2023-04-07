@@ -1,11 +1,20 @@
 import Head from 'next/head'
 import NavBar from '@/components/NavBar'
-import GreenButtonQuiz from '@/components/GreenButtonQuiz'
-import BrownButtonSmall from '@/components/BrownButtonSmall'
+import QuizOptions from '@/components/QuizOptions'
+import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
+import { useState, useEffect } from 'react'
 
-export default function quizPageTwo() {
+export default function quizPageTwo({
+    binary
+}) {
+
+    const [data, setData] = useState();
+
+    useEffect(() => {
+        setData(binary);
+    }, [])
 
     return (
         <>
@@ -21,12 +30,13 @@ export default function quizPageTwo() {
                     <QuizProgress />
                     <div className={styles.quizContainer}>
                         <h1 className={styles.questionHeader}>How large is your garden bed?</h1>
-                        <GreenButtonQuiz text='Small' smalltext='>9ft²' img='/graphics/smallGarden.svg' width='60' height='150' />
-                        <GreenButtonQuiz text='Large' smalltext='>9ft²' img='/graphics/largeGarden.svg' width='80' height='150'/>
+                        <QuizOptions text='Small' smalltext='>9ft²' img='/graphics/smallGarden.svg' width='60' height='150' />
+                        <QuizOptions text='Large' smalltext='>9ft²' img='/graphics/largeGarden.svg' width='80' height='150'/>
                     </div>
                     <div className={styles.backNextContainer}>
-                        <BrownButtonSmall text='Back' link='quizPageOne' />
-                        <BrownButtonSmall text='Next' link='/quizPageThree' />
+                        <Button size={["9.188rem", "2.905rem"]} text='Back' link='quizPageOne' />
+                        <Button size={["9.188rem", "2.905rem"]} text='Next' link='/quizPageThree' />
+                        {binary}
                     </div>
                 </div>
             </main>

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import NavBar from '@/components/NavBar'
-import GreenButtonQuiz from '@/components/GreenButtonQuiz'
-import BrownButtonSmall from '@/components/BrownButtonSmall'
+import QuizOptions from '@/components/QuizOptions'
+import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
 
@@ -21,12 +21,12 @@ export default function quizPageThree() {
                     <QuizProgress />
                     <div className={styles.quizContainer}>
                         <h1 className={styles.questionHeader}>How much maintance can you handle?</h1>
-                        <GreenButtonQuiz text='Low' smalltext='‎ ‎ ‎'  img='/graphics/wateringCanLow.svg' width='100' height='150' />
-                        <GreenButtonQuiz text='High'  img='/graphics/wateringCanHigh.svg' width='100' height='150'/>
+                        <QuizOptions text='Low' smalltext='‎ ‎ ‎'  img='/graphics/wateringCanLow.svg' width='100' height='150' />
+                        <QuizOptions text='High'  img='/graphics/wateringCanHigh.svg' width='100' height='150'/>
                     </div>
                     <div className={styles.backNextContainer}>
-                        <BrownButtonSmall text='Back' link='/quizPageTwo'/>
-                        <BrownButtonSmall text='Next' link='/quizPageFour' />
+                        <Button size={["9.188rem", "2.905rem"]} text='Back' link='/quizPageTwo'/>
+                        <Button size={["9.188rem", "2.905rem"]} text='Next' link='/quizPageFour' />
                     </div>
                 </div>
             </main>
