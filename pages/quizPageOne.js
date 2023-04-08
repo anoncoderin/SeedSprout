@@ -5,10 +5,9 @@ import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
 import { useState, useEffect } from 'react'
-import quizPageTwo from './quizPageTwo'
 
 
-export default function QuizPage() {
+export default function QuizPageOne() {
 
     const [data, setData] = useState('');
     

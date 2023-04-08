@@ -5,7 +5,7 @@ import NavBar from '@/components/NavBar'
 
 
 
-export default function aboutUs() {
+export default function AboutUs() {
     return (
         <>
             <Head>

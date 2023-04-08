@@ -5,7 +5,8 @@ export default function Button({
     link = '',
     text = '',
     size,
-    color
+    color,
+    disabled
 }) {
 
     return (
@@ -16,7 +17,7 @@ export default function Button({
                                             <span>{text}</span>
                                         </div>
                                     </Link> :   <div className={styles.linkContainer} style={{ textDecoration: 'none', backgroundColor: `${color}` }}>
-                                                    <div className={styles.buttonContainer} style={{width: size[0], height: size[1]}}>
+                                                    <div className={styles.buttonContainer} style={{width: size[0], height: size[1], disabled: `${disabled}`}}>
                                                         <span>{text}</span>
                                                     </div>
                                                 </div>

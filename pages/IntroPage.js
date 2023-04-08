@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar";
 import GreenButton from "@/components/GreenButton";
 import BrownButton from "@/components/BrownButton";
 
-export default function Home() {
+export default function IntroPage() {
   return (
     <>
       <Head>

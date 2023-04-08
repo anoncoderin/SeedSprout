@@ -6,7 +6,7 @@ import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
 import { useState, useEffect } from 'react'
 
-export default function quizPageTwo({
+export default function QuizPageTwo({
     binary
 }) {
 

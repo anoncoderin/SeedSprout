@@ -33,3 +33,7 @@
     gap: 1rem;
 }
 
+.disabled {
+    pointer-events: none;
+    display: none;
+  }

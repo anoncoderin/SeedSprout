@@ -5,7 +5,7 @@ import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
 
-export default function quizPageFour() {
+export default function QuizPageFour() {
 
     return (
         <>
