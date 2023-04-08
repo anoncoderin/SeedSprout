@@ -1,12 +1,8 @@
-import { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function QuizProgress({
     question
 }){
-
-const router = useRouter();
-
     return(
         <>
         {

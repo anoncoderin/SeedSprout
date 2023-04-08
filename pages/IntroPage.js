@@ -2,8 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/IntroPage.module.css";
 import NavBar from "@/components/NavBar";
-import GreenButton from "@/components/GreenButton";
-import BrownButton from "@/components/BrownButton";
+import Button from "@/components/GreenButton";
 
 export default function IntroPage() {
   return (

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/blueberriesResultsPage.module.css'
 import NavBar from '@/components/NavBar'
-import BrownButton from '@/components/BrownButton'
+import Button from '@/components/Button'
 
 
 
@@ -49,7 +49,7 @@ export default function Blueberries() {
 
                 
                     <div className={styles.backButton}>
-                    <BrownButton text='Back' />
+                    <Button text='Back' />
                     </div>
                   
                
