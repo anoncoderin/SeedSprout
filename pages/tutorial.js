@@ -5,7 +5,8 @@ import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
 
 
-export default function Home() {
+export default function Tutorial() {
+
   return (
     <>
       <Head>
@@ -23,7 +24,7 @@ export default function Home() {
           <h1 className={styles.h1_size}>Tutorial</h1>
           <div className={styles.para_main}>
             <div className={styles.girl_image}>
-            <Image src="/graphics/girlGardening.svg" width={250} height={250}></Image>
+              <Image src="/graphics/girlGardening.svg" width={250} height={250}></Image>
             </div>
             <p>
               Introducing our plant growing app, designed to help garden
@@ -43,8 +44,8 @@ export default function Home() {
             </p>
           </div>
           <br></br>
-          <Button text="Continue" size={["12.063rem", "3.813rem"]} link="/"/>
-        </div>  
+          <Button text="Continue" size={["12.063rem", "3.813rem"]} link="/" />
+        </div>
       </main>
     </>
   );
