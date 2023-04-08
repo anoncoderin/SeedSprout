@@ -44,8 +44,7 @@ export default function Home() {
           </div>
           <br></br>
           <Button text="Continue" link="/"/>
-        </div>
-        
+        </div>  
       </main>
     </>
   );

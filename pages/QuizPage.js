@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import NavBar from '@/components/NavBar'
-import QuizOptions from '@/components/QuizOptions'
 import Button from '@/components/Button'
 import QuizProgress from '@/components/QuizProgress'
 import styles from '@/styles/Quiz.module.css'
