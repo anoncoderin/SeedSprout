@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
           <br></br>
-          <Button text="Continue" link="/"/>
+          <Button text="Continue" size={["12.063rem", "3.813rem"]} link="/"/>
         </div>  
       </main>
     </>

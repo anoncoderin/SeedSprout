@@ -6,7 +6,7 @@ import Button from '@/components/Button'
 
 
 
-export default function Results() {
+export default function SumVegSummer() {
     return (
         <>
             <Head>
@@ -42,7 +42,7 @@ export default function Results() {
                         </div>
                     </div>
                     <div className={styles.footer_container}>
-                        <div className={styles.btn_footer}><Button text='Restart Quiz' /></div>
+                        <div className={styles.btn_footer}><Button size={["12.063rem", "3.813rem"]} text='Restart Quiz' /></div>
                         </div>
                 </div>
             </main>

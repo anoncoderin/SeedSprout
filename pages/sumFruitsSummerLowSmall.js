@@ -8,7 +8,7 @@ import SummaryResults from '@/components/SummaryResults'
 
 
 
-export default function Results() {
+export default function SumFruitsSummerLowSmall() {
     return (
         <>
             <Head>
@@ -46,7 +46,7 @@ export default function Results() {
                            <ResultsItems img ='/summaryGraphics/Fruits/strawberries.png' text = 'Strawberries' link='/' color='79, 134, 247'/>
                         </div>
                     </div>
-                        <Button text='Back'/>
+                        <Button size={["12.063rem", "3.813rem"]} text='Back'/>
                 </div>
             </main>
         </>

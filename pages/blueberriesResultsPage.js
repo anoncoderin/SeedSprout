@@ -49,7 +49,7 @@ export default function Blueberries() {
 
                 
                     <div className={styles.backButton}>
-                    <Button text='Back' />
+                    <Button size={["12.063rem", "3.813rem"]} text='Back' />
                     </div>
                   
                
