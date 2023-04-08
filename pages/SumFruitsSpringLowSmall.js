@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/SumFruitsSpringLowSmall.module.css'
 import NavBar from '@/components/NavBar'
-import BrownButton from '@/components/BrownButton'
+import Button from '@/components/Button'
 import ResultsItems from '@/components/ResultsItems'
-import SummaryResults from '@/components/summaryResults'
+import SummaryResults from '@/components/SummaryResults'
 
 
 
@@ -46,7 +46,7 @@ export default function Results() {
                            <ResultsItems img ='/summaryGraphics/Fruits/raspberries.png' text = 'Raspberries' link='/' color='79, 134, 247'/>
                         </div>
                     </div>
-                        <BrownButton text='Back'/>
+                        <Button text='Back'/>
                 </div>
             </main>
         </>

@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Tutorial.module.css";
 import NavBar from "@/components/NavBar";
-import GreenButton from "@/components/GreenButton";
-import BrownButton from "@/components/BrownButton";
+import Button from "@/components/Button";
+
 
 export default function Home() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
           <br></br>
-          <GreenButton text="Continue" link="/"/>
+          <Button text="Continue" link="/"/>
         </div>
         
       </main>

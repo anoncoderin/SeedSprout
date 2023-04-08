@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/SumVegSummer.module.css'
 import NavBar from '@/components/NavBar'
-import BrownButton from '@/components/BrownButton'
+import Button from '@/components/Button'
 
 
 
@@ -42,7 +42,7 @@ export default function Results() {
                         </div>
                     </div>
                     <div className={styles.footer_container}>
-                        <div className={styles.btn_footer}><BrownButton text='Restart Quiz' /></div>
+                        <div className={styles.btn_footer}><Button text='Restart Quiz' /></div>
                         </div>
                 </div>
             </main>

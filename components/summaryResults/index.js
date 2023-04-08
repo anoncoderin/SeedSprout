@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import styles from '@/components/summaryResults/summaryResults.module.css'
+import styles from '@/components/SummaryResults/SummaryResults.module.css'
 
 export default function SummaryResults({
     
