@@ -27,24 +27,24 @@ export default function Tutorial() {
               <Image src="/graphics/girlGardening.svg" width={250} height={250}></Image>
             </div>
             <p>
-              Introducing our plant growing app, designed to help garden
-              enthusiast select the best plant for the season. You'll be able to
-              choose the perfect plants for your garden or balcony, no matter
-              how big or small the space is.
+              Here, you can take a 4 step quiz to determine what fruits or vegetables you can grow
+              in your garden, choosing how much maintanence is required, how much space you have, and what season you want to plant for.
             </p>
             <br></br>
             <p>
-              <b>Step 1:</b> Choose the area you want to do gardening. eg: balcony, in
-              lawn or in a small pot.
+              <b>Step 1:</b> Choose any of the options that you feel apply to your needs.
             </p>
             <br></br>
             <p>
-              <b>Step 2: </b>Once you select the area, go ahead and select the season
-              to find out the right plant to grow.
+              <b>Step 2: </b>Once you're done, you can see which fruits or vegetables you can grow depending on what you picked.
+              You can even tap on each one to see more information about them
+            </p>
+            <p>
+              <b>Note: </b>If you don't want to take the quiz over and over, feel free to go to the product catalogue and find the fruit or vegetable you're looking for.
             </p>
           </div>
           <br></br>
-          <Button text="Continue" size={["12.063rem", "3.813rem"]} link="/" />
+          <Button text="Continue to quiz" size={["12.063rem", "3.813rem"]} link="/QuizPage" color={'var(--mantisGreen'}/>
         </div>
       </main>
     </>

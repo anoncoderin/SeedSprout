@@ -29,6 +29,7 @@ export default function IntroPage() {
             </p>
             <br></br>
             <p>
+              <h1 className={styles.ph1}>Did you know?...</h1>
               Buying produce fruits and vegetables can negatively impact the
               world through its contribution to greenhouse gas emissions and
               climate change due to transportation, water usage, pesticide use,
@@ -92,7 +93,12 @@ export default function IntroPage() {
             </div>
           </div>
         </div>
+        <div className={styles.buttonContainer}>
+          <Button size={["8.063rem", "3.813rem"]} text="Home" link="/" color='var(--seedBrown)'/>
+          <Button size={["12.063rem", "3.813rem"]} text="Take Quiz" link="/Tutorial" color='var(--mantisGreen)'/>
+          </div>
         <div className={styles.footer_box}>
+          
           <Image
             className={styles.footer_box_image}
             src="/graphics/trees.svg"

@@ -31,9 +31,10 @@ export default function Home() {
           </p>
           </div>
           <div className={styles.home_buttons}>
-            <Button size={["12.063rem", "3.813rem"]} text="Get Started" link="/" color='var(--mantisGreen)'/>
-            <Button size={["12.063rem", "3.813rem"]} text="About Us" link="/aboutUs" />
-            <Button size={["12.063rem", "3.813rem"]} text="Catalogue" link="/produceCatalogue" />
+            <Button size={["12.063rem", "3.813rem"]} text="Get Started" link="/IntroPage" color='var(--mantisGreen)'/>
+            <Button size={["12.063rem", "3.813rem"]} text="Quiz" link="/Tutorial" color='var(--mantisGreen)'/>
+            <Button size={["12.063rem", "3.813rem"]} text="About Us" link="/AboutUs" />
+            <Button size={["12.063rem", "3.813rem"]} text="Catalogue" link="/ProduceCatalogue" />
           </div>
         </div>
         

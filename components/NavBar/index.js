@@ -33,7 +33,7 @@ export default function NavBar() {
             </Link>
           </div>
           <div>
-            <Link href='/aboutUs'>
+            <Link href='/AboutUs'>
               <div>
                 <Image src='/icons/AboutUsIcon.svg' width={20} height={20} />
                 About Us
@@ -41,7 +41,7 @@ export default function NavBar() {
             </Link>
           </div>
           <div>
-            <Link href='/produceCatalogue'>
+            <Link href='/ProduceCatalogue'>
               <div>
                 <Image src='/icons/CatalogueIcon.svg' width={20} height={20} />
                 Catalogue
@@ -49,18 +49,10 @@ export default function NavBar() {
             </Link>
           </div>
           <div>
-            <Link href='/'>
+            <Link href='/Tutorial'>
               <div>
                 <Image src='/icons/TakeQuizIcon.svg' width={20} height={20} />
                 Take Quiz
-              </div>
-            </Link>
-          </div>
-          <div>
-            <Link href='/tutorial'>
-              <div>
-                <Image src='/icons/TutorialIcon.svg' width={20} height={20} />
-                Tutorial
               </div>
             </Link>
           </div>
