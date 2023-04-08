@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/blueberriesResultsPage.module.css'
+import styles from '@/styles/BlueberriesResultsPage.module.css'
 import NavBar from '@/components/NavBar'
 import Button from '@/components/Button'
 
 
 
-export default function Blueberries() {
+export default function BlueberriesResultsPage() {
     return (
         <>
             <Head>
