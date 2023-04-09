@@ -10,7 +10,7 @@
     {
       "title": "Carrot",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/Carrot.svg",
+      "img": "/fruitsAndVeggiesImages/Carrots.svg",
       "content": "Carrots can be grown in small spaces in containers or raised beds. They require minimal maintenance and can be harvested when they are young and tender.",
       "color": "var(--vegeOrange)"
     },

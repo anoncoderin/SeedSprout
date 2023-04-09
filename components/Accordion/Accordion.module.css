@@ -43,10 +43,17 @@
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-.sectionHeader {}
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:0.625rem; 
+   margin-right: 0.625rem;
+}
 
 .itemContentP {
    margin-left:0.625rem; 

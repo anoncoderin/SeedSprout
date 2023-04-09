@@ -40,6 +40,7 @@ export default function Accordion() {
                   <div className={styles.accordionContent}>
                     {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
                     <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
+                    
                     <p className={styles.itemContentP}>
                       {item.content}
                     </p>
@@ -70,6 +71,7 @@ export default function Accordion() {
                   <div className={styles.accordionContent}>
                     {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
                     <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
+                    <div ><Image src={item.img} width={292} height={136}/></div>
                     <p className={styles.itemContentP}>
                       {item.content}
                     </p>
