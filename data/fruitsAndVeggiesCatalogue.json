@@ -3,154 +3,154 @@
     {
       "title": "Kale",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Kale.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Carrot",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Carrot.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Radish",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Radishes.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cilantro",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Cilantro.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Beans",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Beans.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Bell Peppers",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Peppers.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cauliflower",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Cauliflower.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Zuchini",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Zucchini.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cabbage",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Cabbage.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Broccoli",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Broccoli.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Potato",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Potato.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Corn",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Corn.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Eggplant",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Eggplant.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Brussel Sprout",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/BrusselSprout.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Sweet Potato",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/SweetPotato.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Okra",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Okra.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Chard",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Chard.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Squash",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Squash.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Turnip",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Turnip.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Beets",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/BeetRoot.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Garlic",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Garlic.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Lettuce",
       "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/Lettuce.svg",
       "content": "Lorem",
       "color": "var(--vegeOrange)"
     },
