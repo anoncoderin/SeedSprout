@@ -4,154 +4,154 @@
       "title": "Kale",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Kale.svg",
-      "content": "Kale: Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
+      "content": "Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Carrot",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Carrot.svg",
-      "content": "Lorem",
+      "content": "Carrots can be grown in small spaces in containers or raised beds. They require minimal maintenance and can be harvested when they are young and tender.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Radish",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Radishes.svg",
-      "content": "Lorem",
+      "content": "Radishes are a fast-growing vegetable that can be grown in small spaces. They are also low maintenance and can be ready to harvest in as little as three weeks.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cilantro",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Cilantro.svg",
-      "content": "Lorem",
+      "content": "Cilantro is best planted in the early spring but also can be started in fall. It grows quickly, often yielding its first harvest of leaves within 30 days. Its seeds will be ready for harvest closer to three months from planting.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Beans",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Beans.svg",
-      "content": "Lorem",
+      "content": "Green beans are a fast-growing vegetable that can be grown in small spaces. They require regular watering and trellising but are otherwise relatively low-maintenance.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Bell Peppers",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Peppers.svg",
-      "content": "Lorem",
+      "content": "Peppers are a warm-season vegetable that can be grown in small spaces. They need well-draining soil, regular watering, and plenty of sunlight to produce a good crop.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cauliflower",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Cauliflower.svg",
-      "content": "Lorem",
+      "content": "Cauliflower is a cool-season crop that requires regular watering and fertilizing, as well as protection from pests like cabbage worms and aphids",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Zuchini",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Zucchini.svg",
-      "content": "Lorem",
+      "content": "Zucchini is a warm-season crop that can grow quite large and requires minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Cabbage",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Cabbage.svg",
-      "content": "Lorem",
+      "content": "Cabbage is a cool-season vegetable that can be grown in the spring. It requires regular watering and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Broccoli",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Broccoli.svg",
-      "content": "Lorem",
+      "content": "Broccoli is a cool-season vegetable that can be grown in the spring. It requires regular watering and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Potato",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Potato.svg",
-      "content": "Lorem",
+      "content": "Potatoes can be grown in large containers or raised beds and require minimal maintenance. They need well-draining soil and regular watering, but otherwise, they are a low-maintenance crop.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Corn",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Corn.svg",
-      "content": "Lorem",
+      "content": "Corn is a warm-season vegetable that requires a lot of space and attention to produce a good crop. It needs well-draining soil, regular watering, and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Eggplant",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Eggplant.svg",
-      "content": "Lorem",
+      "content": "Eggplants are a warm-season vegetable that require a lot of attention and care to produce a good crop. They need regular watering and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Brussel Sprout",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/BrusselSprout.svg",
-      "content": "Lorem",
+      "content": "Brussels sprouts are a cool-season vegetable that requires a lot of space and attention to produce a good crop. They need regular watering and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Sweet Potato",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/SweetPotato.svg",
-      "content": "Lorem",
+      "content": "Sweet potatoes are a warm-season vegetable that requires a lot of space and attention to produce a good crop. They need well-draining soil, regular watering, and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Okra",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Okra.svg",
-      "content": "Lorem",
+      "content": "Okra is a warm-season vegetable that can be grown in small spaces. It requires regular watering, fertilizing, and pest control, and it is susceptible to a range of diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Chard",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Chard.svg",
-      "content": "Lorem",
+      "content": "Typically grown as a cool-season crop because it grows quickly and easily during the cooler temperatures of spring and fall, chard is quite tolerant of hotter temperatures, too. Its growth will slow down in summer, but chard’s higher heat tolerance makes it a great salad green to grow when it gets too hot out for the others.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Squash",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Squash.svg",
-      "content": "Lorem",
+      "content": "Squash is a warm-season vegetable that can be grown in small spaces. It requires regular watering, fertilizing, and pest control, and it is susceptible to a range of diseases.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Turnip",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Turnip.svg",
-      "content": "Lorem",
+      "content": "Turnips are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Beets",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/BeetRoot.svg",
-      "content": "Lorem",
+      "content": "Beets are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Garlic",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Garlic.svg",
-      "content": "Lorem",
+      "content": "Garlic is a cool-season crop that can grow quite large and requires minimal maintenance. They need well-draining soil, occasional watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)"
     },
     {
       "title": "Lettuce",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Lettuce.svg",
-      "content": "Lorem",
+      "content": "Lettuce is another fast-growing vegetable that can be grown in small spaces. It requires little maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)"
     },
     {
