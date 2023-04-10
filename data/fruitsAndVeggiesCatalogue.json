@@ -157,9 +157,202 @@
     {
       "title": "Strawberries",
       "type": "fruit",
-      "img": "/fruitsAndVeggiesImages/kale.png",
+      "img": "/fruitsAndVeggiesImages/strawberries.svg",
+      "content": "1. Plant your strawberries in a sunny area for the best flavour",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Blueberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/blueberries.svg",
       "content": "Lorem",
-      "color": "var(--vegeOrange)"
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Blackberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/blackberries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+     {
+      "title": "Raspberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/raspberries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Tomatoes",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/tomatoes.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Peppers",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/Perpper.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Cucumbers",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/cucumbers.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Quince",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/quince.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Mulberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/mulberries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Apricots",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/apricots.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Plums",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/plums.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Cherries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/cherries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Apples",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/apples.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Cantalop",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/cantalope.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Nectarine",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/nectarine.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Pomegranate",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/pome.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Grapes",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/grapes.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Cranberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/cranberries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Persimmons",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/persimmons.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Pears",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/pears.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Gooseberries",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/gooseberries.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Figs",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/figs.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Lime",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/lime.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Kiwi",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/kiwi.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Watermelon",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/watermelon.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Honeydew",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/honeydew.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Passionfruit",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/passionfruit.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
+    },
+    {
+      "title": "Olives",
+      "type": "fruit",
+      "img": "/fruitsAndVeggiesImages/olives.svg",
+      "content": "Lorem",
+      "color": "var(--fruitBlue)"
     }
+
+    
+  
+    
   ]
 }
