@@ -7,12 +7,14 @@ import { useState, useEffect } from 'react'
 import QuizContents from '@/components/QuizContents'
 import Title from '@/components/Title'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
+import ResultsNew from '@/components/ResultsNew'
 
 export default function QuizPage() {
 
     const [data, setData] = useState('');
     const [number, setNumber] = useState(1);
-    const nextButton = number <= 4 && data.length > number - 1;
+    const nextButton = number <= 5 && data.length > number - 1;
     console.log(nextButton)
     const router = useRouter();
 
@@ -132,6 +134,20 @@ export default function QuizPage() {
                                 <QuizContents option={["Autumn", "/graphics/fallSeason.svg", 70, 150]} />
                             </span>
                         </div> : <></>
+                    }
+                        
+                    {
+                        number == 5? 
+                        <div>
+                            <div>
+                                <Image src={"/graphics/" + data + ".svg"} width={400} height={300}></Image>
+                            </div>
+                            <div>
+                                 <ResultsNew userinput={data}/>
+                            </div>
+                        </div>
+                        : <></>
+
                     }
 
                     <div className={styles.backNextContainer}>

@@ -4,6 +4,7 @@ import styles from "@/styles/IntroPage.module.css";
 import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
 
+
 export default function IntroPage() {
   return (
     <>
@@ -107,6 +108,7 @@ export default function IntroPage() {
           ></Image>
           <div className={styles.footer_box_green}></div>
         </div>
+        
       </main>
     </>
   );
