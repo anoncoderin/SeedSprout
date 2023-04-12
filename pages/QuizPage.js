@@ -138,7 +138,8 @@ export default function QuizPage() {
                         
                     {
                         number == 5? 
-                        <div>
+                        <div className={styles.top_summary_container}>
+                            <h2 className={styles.h_text}>Summary</h2>
                             <div>
                                 <Image src={"/graphics/" + data + ".svg"} width={400} height={300}></Image>
                             </div>

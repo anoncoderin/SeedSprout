@@ -16,3 +16,10 @@
     align-items: center;
     gap: 1.25rem;
 }
+.h_text{
+    color: var(--vegeOrange);
+  }
+  .p_text{
+    margin-left: 10px;
+    margin-right: 10px;
+  }

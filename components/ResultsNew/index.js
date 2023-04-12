@@ -11,8 +11,8 @@ export default function ResultsNew(userinput){
     return(<>
     
 <div className={styles.whole_result_container}>
-    <h3>Results  </h3>
-    <h4>These vegetables are the most suitable for you to grow based on your results. </h4>
+    <h2 className={styles.h_text}>Results  </h2>
+    <p className={styles.p_text}>These vegetables are the most suitable for you to grow based on your results. </p>
       {
     fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, i)=> (
         item.index === match
