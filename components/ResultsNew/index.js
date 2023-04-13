@@ -15,8 +15,8 @@ export default function ResultsNew(userinput){
     <p className={styles.p_text}>These vegetables are the most suitable for you to grow based on your results. </p>
       {
     fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, i)=> (
-        item.index === match
-  &&
+        item.index === match &&
+
 <div>
     <div className={styles.image_selections_bottom}>
         

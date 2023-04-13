@@ -6,9 +6,12 @@
       "img": "/fruitsAndVeggiesImages/Kale.svg",
       "content": "Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)",  
-      "index": "1000" 
-      
-         
+      "index": "1000", 
+      "maintenance": "3",
+      "timeToGrow": "7",
+      "difficulty": "4",
+      "sunExposure": "8",
+      "roomToGrow": "6"
     },
     {
       "title": "Kale",
@@ -17,8 +20,6 @@
       "content": "Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)",  
       "index": "1002" 
-      
-         
     },
     {
       "title": "Carrot",
@@ -26,7 +27,12 @@
       "img": "/fruitsAndVeggiesImages/Carrots.svg",
       "content": "Carrots can be grown in small spaces in containers or raised beds. They require minimal maintenance and can be harvested when they are young and tender.",
       "color": "var(--vegeOrange)" ,
-      "index": "1000"      
+      "index": "1000",
+      "maintenance": "5",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "6",
+      "roomToGrow": "7"      
     },
     {
       "title": "Carrot",
@@ -42,7 +48,12 @@
       "img": "/fruitsAndVeggiesImages/Radishes.svg",
       "content": "Radishes are a fast-growing vegetable that can be grown in small spaces. They are also low maintenance and can be ready to harvest in as little as three weeks.",
       "color": "var(--vegeOrange)",
-      "index": "1000"
+      "index": "1000",
+      "maintenance": "3",
+      "timeToGrow": "5",
+      "difficulty": "3",
+      "sunExposure": "7",
+      "roomToGrow": "5"
     },
     {
       "title": "Radish",
@@ -58,7 +69,12 @@
       "img": "/fruitsAndVeggiesImages/Cilantro.svg",
       "content": "Cilantro is best planted in the early spring but also can be started in fall. It grows quickly, often yielding its first harvest of leaves within 30 days. Its seeds will be ready for harvest closer to three months from planting.",
       "color": "var(--vegeOrange)",
-      "index": "1010"
+      "index": "1010",
+      "maintenance": "6",
+      "timeToGrow": "4",
+      "difficulty": "5",
+      "sunExposure": "6",
+      "roomToGrow": "4"
     },
     {
       "title": "Cilantro",
@@ -74,7 +90,12 @@
       "img": "/fruitsAndVeggiesImages/Beans.svg",
       "content": "Beans is best planted in the early spring but also can be started in fall. It grows quickly, often yielding its first harvest of leaves within 30 days. Its seeds will be ready for harvest closer to three months from planting.",
       "color": "var(--vegeOrange)",
-      "index": "1001"
+      "index": "1001",
+      "maintenance": "4",
+      "timeToGrow": "6",
+      "difficulty": "4",
+      "sunExposure": "8",
+      "roomToGrow": "6"
     },
     {
       "title": "Beans",
@@ -91,7 +112,12 @@
       "img": "/fruitsAndVeggiesImages/Peppers.svg",
       "content": "Peppers are a warm-season vegetable that can be grown in small spaces. They need well-draining soil, regular watering, and plenty of sunlight to produce a good crop.",
       "color": "var(--vegeOrange)",
-      "index": "1010"
+      "index": "1010",
+      "maintenance": "5",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "5"
     },
     {
       "title": "Bell Peppers",
@@ -107,7 +133,12 @@
       "img": "/fruitsAndVeggiesImages/Cauliflower.svg",
       "content": "Cauliflower is a cool-season crop that requires regular watering and fertilizing, as well as protection from pests like cabbage worms and aphids",
       "color": "var(--vegeOrange)",
-      "index": "1110"
+      "index": "1110",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "6",
+      "roomToGrow": "6"
     },
     {
       "title": "Cauliflower",
@@ -123,7 +154,12 @@
       "img": "/fruitsAndVeggiesImages/Zucchini.svg",
       "content": "Zucchini is a warm-season crop that can grow quite large and requires minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)",
-      "index": "1100"
+      "index": "1100",
+      "maintenance": "5",
+      "timeToGrow": "6",
+      "difficulty": "5",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Zuchini",
@@ -139,7 +175,12 @@
       "img": "/fruitsAndVeggiesImages/Cabbage.svg",
       "content": "Cabbage is a cool-season vegetable that can be grown in the spring. It requires regular watering and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1110"
+      "index": "1110",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "6",
+      "roomToGrow": "6"
     },
     {
       "title": "Cabbage",
@@ -155,7 +196,12 @@
       "img": "/fruitsAndVeggiesImages/Broccoli.svg",
       "content": "Broccoli is a cool-season vegetable that can be grown in the spring. It requires regular watering and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1110"
+      "index": "1110",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "7",
+      "roomToGrow": "6"
     },
     {
       "title": "Broccoli",
@@ -171,7 +217,12 @@
       "img": "/fruitsAndVeggiesImages/Potato.svg",
       "content": "Potatoes can be grown in large containers or raised beds and require minimal maintenance. They need well-draining soil and regular watering, but otherwise, they are a low-maintenance crop.",
       "color": "var(--vegeOrange)",
-      "index": "1100"
+      "index": "1100",
+      "maintenance": "5",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "6",
+      "roomToGrow": "7"
     },
     {
       "title": "Corn",
@@ -179,7 +230,12 @@
       "img": "/fruitsAndVeggiesImages/Corn.svg",
       "content": "Corn is a warm-season vegetable that requires a lot of space and attention to produce a good crop. It needs well-draining soil, regular watering, and fertilizing, and it is susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1100"
+      "index": "1100",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "8"
     },
     {
       "title": "Eggplant",
@@ -187,7 +243,12 @@
       "img": "/fruitsAndVeggiesImages/Eggplant.svg",
       "content": "Eggplants are a warm-season vegetable that require a lot of attention and care to produce a good crop. They need regular watering and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1010"
+      "index": "1010",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "6"
     },
     {
       "title": "Brussel Sprout",
@@ -195,7 +256,12 @@
       "img": "/fruitsAndVeggiesImages/BrusselSprout.svg",
       "content": "Brussels sprouts are a cool-season vegetable that requires a lot of space and attention to produce a good crop. They need regular watering and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1110"
+      "index": "1110",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "7",
+      "roomToGrow": "6"
     },
     {
       "title": "Brussel Sprout",
@@ -220,7 +286,12 @@
       "img": "/fruitsAndVeggiesImages/SweetPotato.svg",
       "content": "Sweet potatoes are a warm-season vegetable that requires a lot of space and attention to produce a good crop. They need well-draining soil, regular watering, and fertilizing, and they are susceptible to pests and diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1111"
+      "index": "1111",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Sweet Potato",
@@ -236,7 +307,12 @@
       "img": "/fruitsAndVeggiesImages/Okra.svg",
       "content": "Okra is a warm-season vegetable that can be grown in small spaces. It requires regular watering, fertilizing, and pest control, and it is susceptible to a range of diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1011"
+      "index": "1011",
+      "maintenance": "5",
+      "timeToGrow": "7",
+      "difficulty": "5",
+      "sunExposure": "9",
+      "roomToGrow": "7"
     },
     {
       "title": "Chard",
@@ -244,7 +320,12 @@
       "img": "/fruitsAndVeggiesImages/Chard.svg",
       "content": "Typically grown as a cool-season crop because it grows quickly and easily during the cooler temperatures of spring and fall, chard is quite tolerant of hotter temperatures, too. Its growth will slow down in summer, but chard’s higher heat tolerance makes it a great salad green to grow when it gets too hot out for the others.",
       "color": "var(--vegeOrange)",
-      "index": "1011"
+      "index": "1011",
+      "maintenance": "5",
+      "timeToGrow": "6",
+      "difficulty": "5",
+      "sunExposure": "7",
+      "roomToGrow": "6"
     },
     {
       "title": "Squash",
@@ -252,7 +333,12 @@
       "img": "/fruitsAndVeggiesImages/Squash.svg",
       "content": "Squash is a warm-season vegetable that can be grown in small spaces. It requires regular watering, fertilizing, and pest control, and it is susceptible to a range of diseases.",
       "color": "var(--vegeOrange)",
-      "index": "1100"
+      "index": "1100",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Turnip",
@@ -260,7 +346,12 @@
       "img": "/fruitsAndVeggiesImages/Turnip.svg",
       "content": "Turnips are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)",
-      "index": "1102"
+      "index": "1102",
+      "maintenance": "5",
+      "timeToGrow": "6",
+      "difficulty": "5",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Beets",
@@ -268,7 +359,12 @@
       "img": "/fruitsAndVeggiesImages/BeetRoot.svg",
       "content": "Beets are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)",
-      "index": "1102"
+      "index": "1102",
+      "maintenance": "5",
+      "timeToGrow": "7",
+      "difficulty": "5",
+      "sunExposure": "7",
+      "roomToGrow": "7"
     },
     {
       "title": "Garlic",
@@ -276,7 +372,12 @@
       "img": "/fruitsAndVeggiesImages/Garlic.svg",
       "content": "Garlic is a cool-season crop that can grow quite large and requires minimal maintenance. They need well-draining soil, occasional watering, and occasional fertilizing.",
       "color": "var(--vegeOrange)",
-      "index": "1102"
+      "index": "1102",
+      "maintenance": "6",
+      "timeToGrow": "4",
+      "difficulty": "5",
+      "sunExposure": "7",
+      "roomToGrow": "8"
     },
     {
       "title": "Lettuce",
@@ -284,133 +385,228 @@
       "img": "/fruitsAndVeggiesImages/Lettuce.svg",
       "content": "Lettuce is another fast-growing vegetable that can be grown in small spaces. It requires little maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)",
-      "index": "1000"
+      "index": "1000",
+      "maintenance": "4",
+      "timeToGrow": "3",
+      "difficulty": "3",
+      "sunExposure": "5",
+      "roomToGrow": "6"
     },
     {
       "title": "Strawberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/strawberries.svg",
       "content": "Plant your strawberries in a sunny spot with well-draining soil, water regularly, and fertilize monthly.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "5",
+      "timeToGrow": "6",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "4"
     },
     {
       "title": "Blueberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/blueberries.svg",
       "content": "Blueberries grow best in acidic soil with a pH between 4.0 and 5.5, full sun exposure, and consistent moisture.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "8",
+      "roomToGrow": "5"
     },
     {
       "title": "Blackberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/blackberries.svg",
       "content": "Plant blackberries in well-drained soil in a sunny location, prune regularly, and provide adequate water and fertilization for healthy growth.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "5",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "6"
     },
      {
       "title": "Raspberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/raspberries.svg",
       "content": "Plant raspberries in well-drained soil, prune annually, and provide ample sunlight and water for optimal growth.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "6",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Tomatoes",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/tomatoes.svg",
       "content": "Plant tomatoes in a sunny location with well-draining soil, water them consistently, fertilize regularly, and prune the plants to promote airflow and prevent disease.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "5",
+      "sunExposure": "8",
+      "roomToGrow": "5"
     },
     {
       "title": "Peppers",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/Perpper.svg",
       "content": "Plant peppers in a location with full sun exposure, well-draining soil, and consistent watering while fertilizing them regularly.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "9",
+      "roomToGrow": "5"
     },
     {
       "title": "Cucumbers",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/cucumbers.svg",
       "content": "Plant cucumber seeds or seedlings in well-draining soil, in a location with full sun exposure, and provide consistent moisture and fertilization throughout the growing season.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "6"
     },
     {
       "title": "Quince",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/quince.svg",
       "content": "Quinces grow best in well-draining soil with full sun exposure, and require regular watering and pruning to produce healthy fruit.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "5",
+      "timeToGrow": "9",
+      "difficulty": "7",
+      "sunExposure": "8",
+      "roomToGrow": "8"
     },
     {
       "title": "Mulberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/mulberries.svg",
       "content": "Mulberries thrive in full sun and well-drained soil, and benefit from annual pruning to promote air circulation and fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "5",
+      "sunExposure": "9",
+      "roomToGrow": "7"
     },
     {
       "title": "Apricots",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/apricots.svg",
       "content": "Plant apricots in well-draining soil in a sunny spot, water them deeply but infrequently, and prune them regularly to promote fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "9",
+      "roomToGrow": "8"
     },
     {
       "title": "Plums",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/plums.svg",
       "content": "Plant plum trees in a sunny, well-drained location with fertile soil, and prune regularly to promote healthy growth and fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "9",
+      "roomToGrow": "8"
     },
     {
       "title": "Cherries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/cherries.svg",
       "content": "Plant cherry trees in well-drained soil, in a sunny location with good air circulation, and prune them regularly to encourage fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "9",
+      "roomToGrow": "8"
     },
     {
       "title": "Apples",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/apples.svg",
       "content": "Choose a sunny location with well-drained soil, plant disease-resistant varieties, prune regularly, and fertilize appropriately to grow healthy and productive apple trees.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "7",
+      "difficulty": "6",
+      "sunExposure": "8",
+      "roomToGrow": "7"
     },
     {
       "title": "Cantaloupe",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/cantalope.svg",
       "content": "Plant cantaloupe seeds in well-draining soil with full sun exposure, provide consistent moisture, and fertilize regularly for optimal growth.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "6",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "9",
+      "roomToGrow": "8"
     },
     {
       "title": "Nectarine",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/nectarine.svg",
       "content": "Plant nectarine trees in a sunny location with well-draining soil, prune regularly, and protect from pests and diseases.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "5",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "9",
+      "roomToGrow": "7"
     },
     {
       "title": "Pomegranate",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/pome.svg",
       "content": "Plant pomegranate in well-draining soil, provide full sun exposure, and water deeply once a week during the growing season.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "4",
+      "timeToGrow": "9",
+      "difficulty": "6",
+      "sunExposure": "9",
+      "roomToGrow": "8"
     },
     {
       "title": "Grapes",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/grapes.svg",
       "content": "Plant grapes in well-draining soil, provide adequate sunlight and water, prune regularly, and protect from pests and diseases.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "5",
+      "timeToGrow": "8",
+      "difficulty": "6",
+      "sunExposure": "9",
+      "roomToGrow": "7"
     },
     {
       "title": "Cranberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/cranberries.svg",
       "content": "Cranberries require acidic soil, consistent moisture, and good drainage to grow successfully.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "maintenance": "7",
+      "timeToGrow": "8",
+      "difficulty": "7",
+      "sunExposure": "6",
+      "roomToGrow": "8"
     },
     {
       "title": "Persimmons",

@@ -148,7 +148,6 @@ export default function QuizPage() {
                             </div>
                         </div>
                         : <></>
-
                     }
 
                     <div className={styles.backNextContainer}>

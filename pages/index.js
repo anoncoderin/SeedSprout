@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
+import Chart from "@/components/Chart";
 
 export default function Home() {
   return (
@@ -42,3 +43,8 @@ export default function Home() {
     </>
   );
 }
+"maintenance": "3",
+      "timeToGrow": "7",
+      "difficulty": "4",
+      "sunExposure": "8",
+      "roomToGrow": "6"
