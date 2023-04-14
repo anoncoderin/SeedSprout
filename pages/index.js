@@ -43,8 +43,4 @@ export default function Home() {
     </>
   );
 }
-"maintenance": "3",
-      "timeToGrow": "7",
-      "difficulty": "4",
-      "sunExposure": "8",
-      "roomToGrow": "6"
+
