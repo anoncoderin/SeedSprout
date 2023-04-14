@@ -1,0 +1,59 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.header{
+    
+}
+
+.header_tips{
+   
+}
+
+.produce_description{
+   text-align: center;
+    justify-content: center;
+   margin: 30px;
+   width: 350px;
+}
+
+.tips{
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+   
+}
+
+.numbered_tips{
+    display: flex;
+    text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   text-align: left;
+  
+}
+
+.header_tips{
+    font-size: 24px;
+   
+}
+
+.numbered{
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+
+.backButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  
+}
+
