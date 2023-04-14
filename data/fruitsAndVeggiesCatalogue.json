@@ -6,21 +6,12 @@
       "img": "/fruitsAndVeggiesImages/Kale.svg",
       "content": "Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
       "color": "var(--vegeOrange)",  
-      "index": "1000" 
+      "index": ["1000" , "1002"]
       
          
     },
-    {
-      "title": "Kale",
-      "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/Kale.svg",
-      "content": "Kale is a hardy vegetable that can be grown in the spring. It is low maintenance and can be harvested when the leaves are young and tender.",
-      "color": "var(--vegeOrange)",  
-      "index": "1002" 
-      
-         
-    },
-    {
+    
+       {
       "title": "Carrot",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Carrots.svg",
