@@ -5,13 +5,7 @@ import { produceInfo } from '@/data/produceInfo'
 
 
 export default function resultsInfo({
-  title = '',
-  img = '',
-  description = '',
-  itemTitle='',
-  tipOne='',
-  tipTwo='',
-  tipThree=''
+ 
 }) {
   return (
     <>
@@ -24,7 +18,7 @@ export default function resultsInfo({
                 <Image src={produce.img} width={360} height={216} />
                 <p>{produce.description}</p>
                 <div className={styles.tips}>
-          <h1 className={styles.header_tips}>tips on growing {itemTitle}</h1>
+          <h1 className={styles.header_tips}>tips on growing {produce.itemTitle}</h1>
 
           <div className={styles.numbered_tips}>
             <h2 className={styles.numbered}>1.</h2> <p>{produce.tipOne}</p>
