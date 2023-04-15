@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "@/components/ResultsNew/ResultsNew.module.css";
 import { fruitsAndVeggiesCatalogue } from "@/data/fruitsAndVeggiesCatalogue";
 
+
 export default function ResultsNew(userinput) {
   const match = userinput.userinput;
   console.log("userinput", userinput);

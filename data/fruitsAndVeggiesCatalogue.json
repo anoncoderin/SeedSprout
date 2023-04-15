@@ -301,6 +301,7 @@
       "img": "/fruitsAndVeggiesImages/strawberries.svg",
       "content": "Plant your strawberries in a sunny spot with well-draining soil, water regularly, and fertilize monthly.",
       "color": "var(--fruitBlue)",
+      "index": ["0000", "0001", "0011"],
       "maintenance": "5",
       "timeToGrow": "6",
       "difficulty": "6",
@@ -313,6 +314,7 @@
       "img": "/fruitsAndVeggiesImages/blueberries.svg",
       "content": "Blueberries grow best in acidic soil with a pH between 4.0 and 5.5, full sun exposure, and consistent moisture.",
       "color": "var(--fruitBlue)",
+      "index": ["0000", "0012"],
       "maintenance": "6",
       "timeToGrow": "8",
       "difficulty": "7",
@@ -325,6 +327,7 @@
       "img": "/fruitsAndVeggiesImages/blackberries.svg",
       "content": "Plant blackberries in well-drained soil in a sunny location, prune regularly, and provide adequate water and fertilization for healthy growth.",
       "color": "var(--fruitBlue)",
+      "index": ["0000", "0012"],
       "maintenance": "5",
       "timeToGrow": "7",
       "difficulty": "6",
@@ -337,6 +340,7 @@
       "img": "/fruitsAndVeggiesImages/raspberries.svg",
       "content": "Plant raspberries in well-drained soil, prune annually, and provide ample sunlight and water for optimal growth.",
       "color": "var(--fruitBlue)",
+      "index": ["0000", "0011"],
       "maintenance": "6",
       "timeToGrow": "6",
       "difficulty": "6",
@@ -349,6 +353,7 @@
       "img": "/fruitsAndVeggiesImages/tomatoes.svg",
       "content": "Plant tomatoes in a sunny location with well-draining soil, water them consistently, fertilize regularly, and prune the plants to promote airflow and prevent disease.",
       "color": "var(--fruitBlue)",
+      "index": ["0001"],
       "maintenance": "6",
       "timeToGrow": "7",
       "difficulty": "5",
@@ -361,6 +366,7 @@
       "img": "/fruitsAndVeggiesImages/Perpper.svg",
       "content": "Plant peppers in a location with full sun exposure, well-draining soil, and consistent watering while fertilizing them regularly.",
       "color": "var(--fruitBlue)",
+      "index": ["0001"],
       "maintenance": "6",
       "timeToGrow": "8",
       "difficulty": "6",
@@ -373,6 +379,7 @@
       "img": "/fruitsAndVeggiesImages/cucumbers.svg",
       "content": "Plant cucumber seeds or seedlings in well-draining soil, in a location with full sun exposure, and provide consistent moisture and fertilization throughout the growing season.",
       "color": "var(--fruitBlue)",
+      "index": ["0001"],
       "maintenance": "6",
       "timeToGrow": "7",
       "difficulty": "6",
@@ -385,6 +392,7 @@
       "img": "/fruitsAndVeggiesImages/quince.svg",
       "content": "Quinces grow best in well-draining soil with full sun exposure, and require regular watering and pruning to produce healthy fruit.",
       "color": "var(--fruitBlue)",
+      "index": ["0100"],
       "maintenance": "5",
       "timeToGrow": "9",
       "difficulty": "7",
@@ -397,6 +405,7 @@
       "img": "/fruitsAndVeggiesImages/mulberries.svg",
       "content": "Mulberries thrive in full sun and well-drained soil, and benefit from annual pruning to promote air circulation and fruit production.",
       "color": "var(--fruitBlue)",
+      "index": ["0100"],
       "maintenance": "6",
       "timeToGrow": "8",
       "difficulty": "5",
@@ -409,6 +418,7 @@
       "img": "/fruitsAndVeggiesImages/apricots.svg",
       "content": "Plant apricots in well-draining soil in a sunny spot, water them deeply but infrequently, and prune them regularly to promote fruit production.",
       "color": "var(--fruitBlue)",
+      "index": ["0101"],
       "maintenance": "6",
       "timeToGrow": "8",
       "difficulty": "7",
@@ -421,6 +431,7 @@
       "img": "/fruitsAndVeggiesImages/plums.svg",
       "content": "Plant plum trees in a sunny, well-drained location with fertile soil, and prune regularly to promote healthy growth and fruit production.",
       "color": "var(--fruitBlue)",
+      "index": ["0100"],
       "maintenance": "7",
       "timeToGrow": "8",
       "difficulty": "6",
@@ -433,6 +444,7 @@
       "img": "/fruitsAndVeggiesImages/cherries.svg",
       "content": "Plant cherry trees in well-drained soil, in a sunny location with good air circulation, and prune them regularly to encourage fruit production.",
       "color": "var(--fruitBlue)",
+      "index": ["0100","0112"],
       "maintenance": "7",
       "timeToGrow": "8",
       "difficulty": "7",
@@ -445,6 +457,7 @@
       "img": "/fruitsAndVeggiesImages/apples.svg",
       "content": "Choose a sunny location with well-drained soil, plant disease-resistant varieties, prune regularly, and fertilize appropriately to grow healthy and productive apple trees.",
       "color": "var(--fruitBlue)",
+      "index": ["0002"],
       "maintenance": "6",
       "timeToGrow": "7",
       "difficulty": "6",
@@ -457,6 +470,7 @@
       "img": "/fruitsAndVeggiesImages/cantalope.svg",
       "content": "Plant cantaloupe seeds in well-draining soil with full sun exposure, provide consistent moisture, and fertilize regularly for optimal growth.",
       "color": "var(--fruitBlue)",
+      "index": ["0101"],
       "maintenance": "6",
       "timeToGrow": "8",
       "difficulty": "6",
@@ -469,6 +483,7 @@
       "img": "/fruitsAndVeggiesImages/nectarine.svg",
       "content": "Plant nectarine trees in a sunny location with well-draining soil, prune regularly, and protect from pests and diseases.",
       "color": "var(--fruitBlue)",
+      "index": ["0101", "0110"],
       "maintenance": "5",
       "timeToGrow": "8",
       "difficulty": "7",
@@ -481,6 +496,7 @@
       "img": "/fruitsAndVeggiesImages/pome.svg",
       "content": "Plant pomegranate in well-draining soil, provide full sun exposure, and water deeply once a week during the growing season.",
       "color": "var(--fruitBlue)",
+      "index": ["0102","0110"],
       "maintenance": "4",
       "timeToGrow": "9",
       "difficulty": "6",
@@ -493,6 +509,7 @@
       "img": "/fruitsAndVeggiesImages/grapes.svg",
       "content": "Plant grapes in well-draining soil, provide adequate sunlight and water, prune regularly, and protect from pests and diseases.",
       "color": "var(--fruitBlue)",
+      "index": ["0002", "0011", "0102"],
       "maintenance": "5",
       "timeToGrow": "8",
       "difficulty": "6",
@@ -505,6 +522,7 @@
       "img": "/fruitsAndVeggiesImages/cranberries.svg",
       "content": "Cranberries require acidic soil, consistent moisture, and good drainage to grow successfully.",
       "color": "var(--fruitBlue)",
+      "index": ["0002"],
       "maintenance": "7",
       "timeToGrow": "8",
       "difficulty": "7",
@@ -516,70 +534,81 @@
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/persimmons.svg",
       "content": "Plant persimmons in well-draining soil with plenty of sunlight and water regularly, especially during fruit development.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0102", "0110", "0112"]
     },
     {
       "title": "Pears",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/pears.svg",
       "content": "Plant pear trees in a location with well-draining soil and full sun exposure, and regularly prune to encourage strong, healthy growth and optimal fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0002", "0112"]
     },
     {
       "title": "Gooseberries",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/gooseberries.svg",
       "content": "Plant gooseberries in well-draining soil with plenty of sunlight, keep the soil consistently moist, and prune annually to promote growth and fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0010"]
     },
     {
       "title": "Figs",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/figs.svg",
       "content": "Figs grow best in a warm, sunny location with well-draining soil, regular watering and pruning, and protection from pests and diseases.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0010", "0110", "0112", "0012"]
     },
     {
       "title": "Lime",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/lime.svg",
       "content": "Plant lime trees in well-draining soil, in a location with full sun and protection from strong winds, and water regularly while allowing the soil to dry out slightly between watering.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0010", "0110", "0011"]
     },
     {
       "title": "Kiwi",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/kiwi.svg",
       "content": "Plant kiwi in well-drained soil, provide adequate support for the vine to climb, and ensure that it gets full sun exposure while being protected from harsh winds.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0010" , "0101", "0102"]
+
     },
     {
       "title": "Watermelon",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/watermelon.svg",
       "content": "Watermelon thrives in warm temperatures, needs plenty of sun and water, and should be planted in well-draining soil with plenty of space for the vines to spread.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0110"]
     },
     {
       "title": "Honeydew",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/honeydew.svg",
       "content": "Plant honeydew seeds in well-draining soil with full sun exposure and water regularly, but avoid overwatering.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0110"]
     },
     {
       "title": "Passionfruit",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/passionfruit.svg",
       "content": "Plant passionfruit in well-draining soil, provide adequate water and sunlight, and prune regularly to promote healthy growth and fruit production.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0110"]
     },
     {
       "title": "Olives",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/olives.svg",
       "content": "Olives thrive in well-drained soil, lots of sunlight, and moderate temperatures, so plant them in a sunny spot with good drainage and protect them from extreme cold or hot temperatures.",
-      "color": "var(--fruitBlue)"
+      "color": "var(--fruitBlue)",
+      "index": ["0012"]
     }
 
     
