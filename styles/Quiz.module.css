@@ -45,3 +45,13 @@
   .h_text{
     color: var(--vegeOrange);
   }
+  .img_set_four{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .img_set_two{
+    display: flex;
+    flex-direction: row;
+
+  }
