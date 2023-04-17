@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "@/components/ResultsNew/ResultsNew.module.css";
 import { fruitsAndVeggiesCatalogue } from "@/data/fruitsAndVeggiesCatalogue";
+import ResultsItems from "../ResultsItems";
 
 
 export default function ResultsNew(userinput) {
@@ -26,7 +27,7 @@ export default function ResultsNew(userinput) {
                   <div>
                     <div className={styles.image_selections_bottom}>
                       <div className={styles.list_image}>
-                        <Image src={item.img} width={292} height={136}></Image>
+                        <ResultsItems img={item.img} color={item.color} width={292} height={136}/>
                       </div>
                     </div>
                   </div>

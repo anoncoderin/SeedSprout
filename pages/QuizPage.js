@@ -11,6 +11,13 @@ import Image from "next/image";
 import ResultsNew from "@/components/ResultsNew";
 
 export default function QuizPage() {
+  const [num, setNum] = useState(5);
+  const [datainfo, setDatainfo] = useState('default');
+  const handleClick = (newNumber, newData) => {
+    setNumber(newNumber);
+    setData(newData);
+  }
+
   const [data, setData] = useState("");
   const [number, setNumber] = useState(1);
   const [resultImageList, setResultImageList] = useState([]);
@@ -182,30 +189,30 @@ export default function QuizPage() {
             <div className={styles.top_summary_container}>
               <h2 className={styles.h_text}>Summary</h2>
               <div className={styles.img_set_four}>
-                    <div className={styles.img_set_two}>
-                        <Image
-                            src={"/graphics/" + resultImageList[1] + ".svg"}
-                            width={180}
-                            height={100}
-                        ></Image>
-                        <Image
-                            src={"/graphics/" + resultImageList[3] + ".svg"}
-                            width={180}
-                            height={100}
-                        ></Image>
-                    </div>
-                    <div className={styles.img_set_two}>
-                        <Image
-                            src={"/graphics/" + resultImageList[2] + ".svg"}
-                            width={180}
-                            height={100}
-                        ></Image>
-                        <Image
-                            src={"/graphics/" + resultImageList[0] + ".svg"}
-                            width={180}
-                            height={100}
-                        ></Image>
-                    </div>
+                <div className={styles.img_set_two} onClick={() => handleClick(6, 'newData')}>
+                  <Image
+                    src={"/graphics/" + resultImageList[1] + ".svg"}
+                    width={180}
+                    height={100}
+                  ></Image>
+                  <Image
+                    src={"/graphics/" + resultImageList[3] + ".svg"}
+                    width={180}
+                    height={100}
+                  ></Image>
+                </div>
+                <div className={styles.img_set_two}>
+                  <Image
+                    src={"/graphics/" + resultImageList[2] + ".svg"}
+                    width={180}
+                    height={100}
+                  ></Image>
+                  <Image
+                    src={"/graphics/" + resultImageList[0] + ".svg"}
+                    width={180}
+                    height={100}
+                  ></Image>
+                </div>
               </div>
               <div>
                 <ResultsNew userinput={data} />
@@ -214,6 +221,16 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
+
+
+          {
+            number == 6 ?
+              <div className={styles.produce_info_container} onClick={() => handleClick(5, 'default')} >
+                <resultsInfo/>
+              </div>
+              : <></>
+          }
+
           <div className={styles.backNextContainer}>
             {data.length >= 0 && number == 1 ? (
               <span onClick={() => backHandler()}>

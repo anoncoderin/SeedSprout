@@ -12,7 +12,6 @@ export default function ResultsItems({
         <>
             <Link href='/'>
                 <div className={styles.mainContainer} style={{ backgroundImage: `url(${img})` }}>
-
                     <div className={styles.overlay}>
                         <div className={styles.textContainer}>
                             <h3>{text}</h3>

@@ -4,9 +4,9 @@ import Button from "../Button"
 import { produceInfo } from '@/data/produceInfo'
 
 
-export default function resultsInfo({
+export default function resultsInfo(){
  
-}) {
+} {
   return (
     <>
       <div className={styles.container}>
