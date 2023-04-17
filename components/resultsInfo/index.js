@@ -1,10 +1,10 @@
 import Image from "next/image"
-import styles from '@/components/resultsInfo/resultsInfo.module.css'
+import styles from '@/components/resultsInfo/ResultsInfo.module.css'
 import Button from "../Button"
 import { produceInfo } from '@/data/produceInfo'
 
 
-export default function resultsInfo(){
+export default function ResultsInfo(){
   return (
     <>
       <div className={styles.container}>

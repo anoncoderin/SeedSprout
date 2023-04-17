@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/BlueberriesResultsPage.module.css'
 import NavBar from '@/components/NavBar'
 import Button from '@/components/Button'
-import ResultsInfo from '@/components/resultsInfo'
+import ResultsInfo from '@/components/ResultsInfo'
 
 
 export default function BlueberriesResultsPage() {

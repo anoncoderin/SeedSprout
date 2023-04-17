@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "@/components/ResultsNew/ResultsNew.module.css";
 import { fruitsAndVeggiesCatalogue } from "@/data/fruitsAndVeggiesCatalogue";
 import ResultsItems from "../ResultsItems";
-import resultsInfo from "../resultsInfo";
+import resultsInfo from "../ResultsInfo";
 
 
 export default function ResultsNew(userinput) {
