@@ -12,15 +12,20 @@ export default function NavBar() {
 
   return (
     <div className={styles.navBarContainer}>
+      
       <div className={styles.logoContainer}>
         <Image src='/logo/logo.svg' width={40} height={38} />
+        
       </div>
-      <div
+      
+      {/* <div
         className={styles.hamburgerContainer}
         onClick={() => toggleMenu()}
       >
         <Image src='/icons/hamburger.svg' width={50} height={50} />
-      </div>
+       
+      </div> */}
+
       {overlay && (
         <div className={styles.popupContent}>
           {/**Copy and paste a div to add items to navBar. May need to adjust height of overlay in css file aswell.*/}
@@ -58,6 +63,7 @@ export default function NavBar() {
           </div>
         </div>
       )}
+      
     </div>
   );
 }

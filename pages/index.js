@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
 import Chart from "@/components/Chart";
+import NavBarBottom from "@/components/NavBarBottom";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
-        <NavBar />
+        <NavBar/>
+        <NavBarBottom/>
         <div className={styles.main_container}>
           <Image
             src="/logo/logo-with-text.svg"
@@ -33,7 +35,6 @@ export default function Home() {
           </div>
           <div className={styles.home_buttons}>
             <Button size={["12.063rem", "3.813rem"]} text="Get Started" link="/IntroPage" color='var(--mantisGreen)'/>
-            <Button size={["12.063rem", "3.813rem"]} text="Quiz" link="/Tutorial" color='var(--mantisGreen)'/>
             <Button size={["12.063rem", "3.813rem"]} text="About Us" link="/AboutUs" />
             <Button size={["12.063rem", "3.813rem"]} text="Catalogue" link="/ProduceCatalogue" />
           </div>

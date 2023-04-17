@@ -13,12 +13,18 @@ import ResultsNew from "@/components/ResultsNew";
 export default function QuizPage() {
   const [num, setNum] = useState(5);
 
-  const [data, setData] = useState("");
+  const [data, setData] = useState('');
   const [number, setNumber] = useState(1);
   const [resultImageList, setResultImageList] = useState([]);
   const nextButton = number <= 5 && data.length > number - 1;
   console.log(nextButton);
   const router = useRouter();
+
+  // if (data[0] == '0'){
+  //   setTitle('fruits')
+  // } else if (data[0] == '1'){
+  //   setTitle('vegetables')
+  // }
 
   const changeQuestion = (binary, resultImage) => {
     if (number == -1) {
@@ -122,8 +128,8 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-          {/* image list: {resultImageList}, data: {data}, string length:{" "}
-          {data.length} */}
+          mage list: {resultImageList}, data: {data}, string length:{" "}
+          {data.length}
           {number == 2 ? (
             <div className={styles.quizContainer}>
               <Title title="How large is your garden bed?" />
@@ -210,6 +216,7 @@ export default function QuizPage() {
                 </div>
               </div>
               <div>
+                
                 <ResultsNew userinput={data} />
               </div>
             </div>
@@ -224,7 +231,7 @@ export default function QuizPage() {
                   size={["9.188rem", "2.905rem"]}
                   link="/"
                   text="Back"
-                  binary={data}
+                 
                 />
               </span>
             ) : (
@@ -237,7 +244,7 @@ export default function QuizPage() {
                   size={["9.188rem", "2.905rem"]}
                   link=""
                   text="Back"
-                  binary={data}
+                  
                 />
               </span>
             ) : (
@@ -251,7 +258,6 @@ export default function QuizPage() {
                     size={["9.188rem", "2.905rem"]}
                     link=""
                     text="Next"
-                    binary={data}
                   />
                 </span>
               </div>

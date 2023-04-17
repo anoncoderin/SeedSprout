@@ -1,0 +1,29 @@
+.navBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkBrown);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 9px 9px 6px rgba(0, 0, 0, 0.8);
+    font-family: 'Jost', sans-serif;
+    position: fixed;
+    bottom: 0px;
+   width: 90%;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .navBarContainer > div > a{
+    text-decoration: none;
+  }
+
+ .itemContainer{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+ }
+

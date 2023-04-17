@@ -7,17 +7,28 @@ import ResultsItems from "../ResultsItems";
 import resultsInfo from "../ResultsInfo";
 
 
+
 export default function ResultsNew(userinput) {
   const match = userinput.userinput;
   console.log("userinput", userinput);
+
+  const [data, setData] = useState(userinput.userinput[0]);
+
+  if (data == '0'){
+   setData('fruits')
+  } else if (data == '1'){
+  setData('vegetables')
+}
+
+
 
   return (
     <>
       <div className={styles.whole_result_container}>
         <h2 className={styles.h_text}>Results </h2>
         <p className={styles.p_text}>
-          These vegetables are the most suitable for you to grow based on your
-          results.{" "}
+          These {data} are the most suitable for you to grow based on your
+          results.
         </p>
         {fruitsAndVeggiesCatalogue &&
           fruitsAndVeggiesCatalogue.map((item, i) =>
