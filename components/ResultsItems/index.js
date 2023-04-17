@@ -10,8 +10,8 @@ export default function ResultsItems({
 }) {
     return (
         <>
-            <Link href='/'>
-                <div className={styles.mainContainer} style={{ backgroundImage: `url(${img})` }}>
+            <Link style={{ textDecoration: 'none'}} href='/'>
+                <div className={styles.mainContainer} style={{ backgroundImage: `url(${img})`, borderRadius: '6px' }}>
                     <div className={styles.overlay}>
                         <div className={styles.textContainer}>
                             <h3>{text}</h3>

@@ -6,6 +6,8 @@ import NavBar from '@/components/NavBar'
 
 
 export default function AboutUs() {
+    const title = process.env.NEXT_PUBLIC_TITLE
+
     return (
         <>
             <Head>
@@ -16,7 +18,7 @@ export default function AboutUs() {
             </Head>
             <main className={styles.main}>
                 <NavBar />
-                <h1 className={styles.Header}>About Us</h1>
+                <h1 className={styles.Header}>{title}</h1>
                 <div className={styles.container}>
                     
                     <div className={styles.section}>
@@ -44,8 +46,6 @@ export default function AboutUs() {
                     </div>
 
                 </div>
-
-
             </main>
         </>
     )
