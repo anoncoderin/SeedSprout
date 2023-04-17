@@ -6,7 +6,7 @@ import NavBar from '@/components/NavBar'
 
 
 export default function AboutUs() {
-    const title = process.env.NEXT_PUBLIC_TITLE
+    var title = process.env.NEXT_PUBLIC_TITLE
 
     return (
         <>
