@@ -5,7 +5,7 @@ import styles from '.SummaryResults.module.css'
 export default function SummaryResults({
     
     img = '',
-    text = '',
+    title = '',
     color = '',
     
 }) {
@@ -18,7 +18,7 @@ export default function SummaryResults({
                             <img src = {img} width={90} height={98}/>
                         </div>
                         <div className={styles.text}>
-                            <p>{text}</p>
+                            <p>{title}</p>
                         </div>
                 </div>
           

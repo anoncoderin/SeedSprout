@@ -5,8 +5,6 @@ import { produceInfo } from '@/data/produceInfo'
 
 
 export default function resultsInfo(){
- 
-} {
   return (
     <>
       <div className={styles.container}>

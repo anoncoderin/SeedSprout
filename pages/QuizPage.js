@@ -12,12 +12,7 @@ import ResultsNew from "@/components/ResultsNew";
 
 export default function QuizPage() {
   const [num, setNum] = useState(5);
-  const [datainfo, setDatainfo] = useState('default');
-  const handleClick = (newNumber, newData) => {
-    setNumber(newNumber);
-    setData(newData);
-  }
-
+  
   const [data, setData] = useState("");
   const [number, setNumber] = useState(1);
   const [resultImageList, setResultImageList] = useState([]);
@@ -223,13 +218,7 @@ export default function QuizPage() {
           )}
 
 
-          {
-            number == 6 ?
-              <div className={styles.produce_info_container} onClick={() => handleClick(5, 'default')} >
-                <resultsInfo/>
-              </div>
-              : <></>
-          }
+      
 
           <div className={styles.backNextContainer}>
             {data.length >= 0 && number == 1 ? (
