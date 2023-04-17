@@ -28,7 +28,7 @@ export default function ResultsNew(userinput) {
                   <div>
                     <div className={styles.image_selections_bottom} index={i}>
                       <div className={styles.list_image}>
-                        <ResultsItems img={item.img} color={item.color} width={292} height={136}/>
+                        <ResultsItems img={item.img} color={item.color} text={item.title} width={292} height={136}/>
                       </div>
                     </div>
                   </div>

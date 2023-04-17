@@ -12,7 +12,7 @@ import ResultsNew from "@/components/ResultsNew";
 
 export default function QuizPage() {
   const [num, setNum] = useState(5);
-  
+
   const [data, setData] = useState("");
   const [number, setNumber] = useState(1);
   const [resultImageList, setResultImageList] = useState([]);
@@ -122,8 +122,8 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-          image list: {resultImageList}, data: {data}, string length:{" "}
-          {data.length}
+          {/* image list: {resultImageList}, data: {data}, string length:{" "}
+          {data.length} */}
           {number == 2 ? (
             <div className={styles.quizContainer}>
               <Title title="How large is your garden bed?" />
@@ -184,7 +184,7 @@ export default function QuizPage() {
             <div className={styles.top_summary_container}>
               <h2 className={styles.h_text}>Summary</h2>
               <div className={styles.img_set_four}>
-                <div className={styles.img_set_two} onClick={() => handleClick(6, 'newData')}>
+                <div className={styles.img_set_two}>
                   <Image
                     src={"/graphics/" + resultImageList[1] + ".svg"}
                     width={180}
@@ -216,9 +216,6 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-
-
-      
 
           <div className={styles.backNextContainer}>
             {data.length >= 0 && number == 1 ? (
