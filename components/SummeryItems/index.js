@@ -3,12 +3,15 @@ import styles from './SummeryItems.module.css'
 
 export default function SummaryItems({
     arr,
+    color
 }) {
+    {arr}
     return (
+        
         arr && arr.map((choice) => {
             if (choice == 'fruitBundle') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -19,7 +22,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'vegetableBundle') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -30,7 +33,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'smallGarden') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -41,7 +44,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'largeGarden') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -52,7 +55,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'wateringCanLow') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -63,7 +66,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'wateringCanHigh') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -74,7 +77,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'springSeason') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -85,7 +88,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'summerSeason') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
@@ -96,7 +99,7 @@ export default function SummaryItems({
                 )
             } else if (choice == 'fallSeason') {
                 return (
-                    <div className={styles.itemContainer}>
+                    <div className={styles.itemContainer} style={{ borderColor: `rgb(${color})`}}>
                         <Image
                             src={"/graphics/" + choice + ".svg"}
                             width={180}
