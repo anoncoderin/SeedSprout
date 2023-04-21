@@ -1,0 +1,15 @@
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 11.438rem;
+    height: 10.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  
+}

@@ -8,82 +8,69 @@ import QuizContents from "@/components/QuizContents";
 import Title from "@/components/Title";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import ResultsNew from "@/components/ResultsNew";
+
+import Test from "@/components/SummeryItems";
+
 
 export default function QuizPage() {
   const [num, setNum] = useState(5);
 
   const [data, setData] = useState('');
   const [number, setNumber] = useState(1);
-  const [resultImageList, setResultImageList] = useState([]);
   const nextButton = number <= 5 && data.length > number - 1;
-  console.log(nextButton);
   const router = useRouter();
+  const [choices, setChoices] = useState([]);
 
-  // if (data[0] == '0'){
-  //   setTitle('fruits')
-  // } else if (data[0] == '1'){
-  //   setTitle('vegetables')
-  // }
-
-  const changeQuestion = (binary, resultImage) => {
+  const changeQuestion = (binary, choice, index) => {
     if (number == -1) {
       router.push("/");
     } else if (number == 1) {
       if (data.length == 0) {
         setData(data + binary);
-        setResultImageList(resultImage);
       } else if (data.length == 1) {
         setData(data.slice(-1, 0));
         setData(binary);
-
-        setResultImageList(resultImageList.slice(0, -1));
-        setResultImageList(resultImage);
-
         console.log({ data });
-        console.log({ resultImageList });
       }
     } else if (number == 2) {
       if (data.length == 1) {
         setData(data + binary);
-        setResultImageList((resultImage));
-
       } else if (data.length == 2) {
         setData(data.replace(/\d$/, `${binary}`));
-
-        setResultImageList([resultImage]);
         console.log({ data });
-        console.log({ resultImageList });
       }
     } else if (number == 3) {
       if (data.length == 2) {
         setData(data + binary);
-        setResultImageList([...resultImageList, resultImage]);
       } else if (data.length == 3) {
         setData(data.replace(/\d$/, `${binary}`));
-        setResultImageList(resultImageList.slice(0, -1));
-        setResultImageList([...resultImageList, resultImage]);
         console.log({ data });
-        console.log({ resultImageList });
       }
     } else if (number == 4) {
       if (data.length == 3) {
         setData(data + binary);
-        setResultImageList([...resultImageList, resultImage]);
+
       } else if (data.length == 4) {
         setData(data.replace(/\d$/, `${binary}`));
-        setResultImageList(resultImageList.slice(0, -1));
-        setResultImageList([...resultImageList, resultImage]);
         console.log({ data });
-        console.log({ resultImageList });
       }
     }
+
+    setChoices((prevChoices) => {
+      const newChoices = [...prevChoices];
+    
+      if (newChoices.length > index) {
+        newChoices[index] = choice;
+      } else {
+        newChoices.push(choice);
+      }
+      return newChoices;
+    });
   };
 
   const backHandler = () => {
     setNumber(number - 1);
     setData(data.slice(0, -1));
-    setResultImageList(resultImageList.slice(0, -1));
   };
 
   useEffect(() => {
@@ -105,15 +92,16 @@ export default function QuizPage() {
         <NavBar />
         <div className={styles.bodyContent}>
           <QuizProgress question={number} />
+
           {number == 1 ? (
             <div className={styles.quizContainer}>
               <Title title="Which one do you want to grow?" />
-              <span onClick={() => changeQuestion("0", "fruitBundle")}>
+              <span onClick={() => changeQuestion("0", "fruitBundle", "0")}>
                 <QuizContents
                   option={["Fruits", "/graphics/fruitBundle.svg", 90, 150]}
                 />
               </span>
-              <span onClick={() => changeQuestion("1", "vegetableBundle")}>
+              <span onClick={() => changeQuestion("1", "vegetableBundle", "0")}>
                 <QuizContents
                   option={[
                     "Veggies",
@@ -127,17 +115,17 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-          mage list: {resultImageList}, data: {data}, string length:{" "}
-          {data.length}
+          image: {choices} data: {data}, string length:{" "}
+          {data.length} choicelength: {choices.length}
           {number == 2 ? (
             <div className={styles.quizContainer}>
               <Title title="How large is your garden bed?" />
-              <span onClick={() => changeQuestion("0", "smallGarden")}>
+              <span onClick={() => changeQuestion("0", "smallGarden", "1")}>
                 <QuizContents
                   option={["Small", "/graphics/smallGarden.svg", 60, 150]}
                 />
               </span>
-              <span onClick={() => changeQuestion("1", "largeGarden")}>
+              <span onClick={() => changeQuestion("1", "largeGarden", "1")}>
                 <QuizContents
                   option={["Large", "/graphics/largeGarden.svg", 80, 150]}
                 />
@@ -149,12 +137,12 @@ export default function QuizPage() {
           {number == 3 ? (
             <div className={styles.quizContainer}>
               <Title title="How much maintenance can you handle?" />
-              <span onClick={() => changeQuestion("0", "wateringCanLow")}>
+              <span onClick={() => changeQuestion("0", "wateringCanLow", "2")}>
                 <QuizContents
                   option={["Low", "/graphics/wateringCanLow.svg", 100, 150]}
                 />
               </span>
-              <span onClick={() => changeQuestion("1", "wateringCanHigh")}>
+              <span onClick={() => changeQuestion("1", "wateringCanHigh", "2")}>
                 <QuizContents
                   option={["High", "/graphics/wateringCanHigh.svg", 100, 150]}
                 />
@@ -166,62 +154,30 @@ export default function QuizPage() {
           {number == 4 ? (
             <div className={styles.quizContainer}>
               <Title title="What season are you planting for?" />
-              <span onClick={() => changeQuestion("0", "springSeason")}>
+              <span onClick={() => changeQuestion("0", "springSeason", "3")}>
                 <QuizContents
                   option={["Spring", "/graphics/springSeason.svg", 75, 150]}
                 />
               </span>
-              <span onClick={() => changeQuestion("1", "summerSeason")}>
+              <span onClick={() => changeQuestion("1", "summerSeason", "3")}>
                 <QuizContents
                   option={["Summer", "/graphics/summerSeason.svg", 80, 150]}
                 />
               </span>
-              <span onClick={() => changeQuestion("2", "fallSeason")}>
+              <span onClick={() => changeQuestion("2", "fallSeason", "3")}>
                 <QuizContents
                   option={["Autumn", "/graphics/fallSeason.svg", 70, 150]}
                 />
+                
               </span>
-            </div>
-          ) : (
-            <></>
-          )}
-          {number == 5 ? (
-            <div className={styles.top_summary_container}>
-              <h2 className={styles.h_text}>Summary</h2>
-              <div className={styles.img_set_four}>
-                <div className={styles.img_set_two}>
-                  <Image
-                    src={"/graphics/" + resultImageList[1] + ".svg"}
-                    width={180}
-                    height={100}
-                  ></Image>
-                  <Image
-                    src={"/graphics/" + resultImageList[3] + ".svg"}
-                    width={180}
-                    height={100}
-                  ></Image>
-                </div>
-                <div className={styles.img_set_two}>
-                  <Image
-                    src={"/graphics/" + resultImageList[2] + ".svg"}
-                    width={180}
-                    height={100}
-                  ></Image>
-                  <Image
-                    src={"/graphics/" + resultImageList[0] + ".svg"}
-                    width={180}
-                    height={100}
-                  ></Image>
-                </div>
-              </div>
               <div>
-
-                <ResultsNew userinput={data} />
               </div>
+
             </div>
           ) : (
             <></>
           )}
+          
 
           <div className={styles.backNextContainer}>
             {data.length >= 0 && number == 1 ? (
@@ -250,7 +206,7 @@ export default function QuizPage() {
               <></>
             )}
 
-            {nextButton && (
+            {nextButton && number < 4 ? (
               <div className={styles.backNextContainer}>
                 <span onClick={() => setNumber(number + 1)}>
                   <Button
@@ -259,7 +215,26 @@ export default function QuizPage() {
                     text="Next"
                   />
                 </span>
-              </div>
+              </div>) : (
+              <></>
+            )}
+
+        {nextButton && number == 4 ? (
+              <div className={styles.backNextContainer}>
+                <span onClick={() => router.push({pathname: '/Results',
+query: { 
+    choices: JSON.stringify(choices), 
+    data: JSON.stringify(data) 
+  }
+})}>
+                  <Button
+                    size={["9.188rem", "2.905rem"]}
+                    link=""
+                    text="Next"
+                  />
+                </span>
+              </div>) : (
+              <></>
             )}
           </div>
         </div>
