@@ -58,7 +58,7 @@ export default function QuizPage() {
 
     setChoices((prevChoices) => {
       const newChoices = [...prevChoices];
-    
+
       if (newChoices.length > index) {
         newChoices[index] = choice;
       } else {
@@ -168,7 +168,7 @@ export default function QuizPage() {
                 <QuizContents
                   option={["Autumn", "/graphics/fallSeason.svg", 70, 150]}
                 />
-                
+
               </span>
               <div>
               </div>
@@ -177,7 +177,7 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-          
+
 
           <div className={styles.backNextContainer}>
             {data.length >= 0 && number == 1 ? (
@@ -219,14 +219,15 @@ export default function QuizPage() {
               <></>
             )}
 
-        {nextButton && number == 4 ? (
+            {nextButton && number == 4 ? (
               <div className={styles.backNextContainer}>
-                <span onClick={() => router.push({pathname: '/Results',
-query: { 
-    choices: JSON.stringify(choices), 
-    data: JSON.stringify(data) 
-  }
-})}>
+                <span onClick={() => router.push({
+                  pathname: '/Results',
+                  query: {
+                    choices: JSON.stringify(choices),
+                    data: JSON.stringify(data)
+                  }
+                })}>
                   <Button
                     size={["9.188rem", "2.905rem"]}
                     link=""
