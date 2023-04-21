@@ -32,15 +32,13 @@ export default function QuizPage() {
     } else if (number == 1) {
       if (data.length == 0) {
         setData(data + binary);
-
-        setResultImageList([...resultImageList, resultImage]);
+        setResultImageList(resultImage);
       } else if (data.length == 1) {
         setData(data.slice(-1, 0));
         setData(binary);
 
         setResultImageList(resultImageList.slice(0, -1));
-
-        setResultImageList([...resultImageList, resultImage]);
+        setResultImageList(resultImage);
 
         console.log({ data });
         console.log({ resultImageList });
@@ -48,11 +46,12 @@ export default function QuizPage() {
     } else if (number == 2) {
       if (data.length == 1) {
         setData(data + binary);
-        setResultImageList([...resultImageList, resultImage]);
+        setResultImageList((resultImage));
+
       } else if (data.length == 2) {
         setData(data.replace(/\d$/, `${binary}`));
-        setResultImageList(resultImageList.slice(0, -1));
-        setResultImageList([...resultImageList, resultImage]);
+
+        setResultImageList([resultImage]);
         console.log({ data });
         console.log({ resultImageList });
       }
@@ -216,7 +215,7 @@ export default function QuizPage() {
                 </div>
               </div>
               <div>
-                
+
                 <ResultsNew userinput={data} />
               </div>
             </div>
@@ -231,7 +230,7 @@ export default function QuizPage() {
                   size={["9.188rem", "2.905rem"]}
                   link="/"
                   text="Back"
-                 
+
                 />
               </span>
             ) : (
@@ -244,7 +243,7 @@ export default function QuizPage() {
                   size={["9.188rem", "2.905rem"]}
                   link=""
                   text="Back"
-                  
+
                 />
               </span>
             ) : (

@@ -1,16 +1,19 @@
  import Link from "next/link"
 import Image from "next/image"
 import styles from '@/components/ResultsItems/ResultsItems.module.css'
-
+import resultsInfo from "../resultsInfo"
 export default function ResultsItems({
     img = '',
     text = '',
     color = '',
     link = ''
 }) {
+
+    
+
     return (
         <>
-            <Link style={{ textDecoration: 'none'}} href='/'>
+           <Link href={{ pathname: '/test', query: { text } }}>
                 <div className={styles.mainContainer} style={{ backgroundImage: `url(${img})`, borderRadius: '6px' }}>
                     <div className={styles.overlay}>
                         <div className={styles.textContainer}>
