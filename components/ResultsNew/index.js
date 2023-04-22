@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "@/components/ResultsNew/ResultsNew.module.css";
 import { fruitsAndVeggiesCatalogue } from "@/data/fruitsAndVeggiesCatalogue";
 import ResultsItems from "../ResultsItems";
-import resultsInfo from "../resultsInfo";
+import ResultsInfo from "../ResultsInfo";
 
 export default function ResultsNew(userinput) {
   const match = userinput.userinput;

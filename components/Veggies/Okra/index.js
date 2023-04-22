@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Router from "next/router";
-import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import styles from "@/components/ResultsInfo/resultsInfo.module.css";
 import { useRouter } from "next/router";
 
 export default function Okra({}) {
@@ -11,9 +11,9 @@ export default function Okra({}) {
         <div className={styles.produce_description}>
           {
             <div>
-              <h1 className={styles.header}>Kale</h1>
+              <h1 className={styles.header}>Okra</h1>
               <Image
-                src={"/fruitsAndVeggiesImages/Kale.svg"}
+                src={"/fruitsAndVeggiesImages/Okra.svg"}
                 width={360}
                 height={216}
               />

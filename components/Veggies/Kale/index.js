@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Router from "next/router";
-import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import styles from "@/components/Veggies/Kale/Kale.module.css";
 import { useRouter } from "next/router";
 
-export default function Kale({}) {
+export default function Kale() {
   const router = useRouter();
   return (
     <>
