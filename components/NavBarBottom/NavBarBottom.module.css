@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--darkBrown);
+    background-color: var(--polyGreen);
     color: white;
     padding: 10px;
     box-shadow: 0px 9px 9px 6px rgba(0, 0, 0, 0.8);

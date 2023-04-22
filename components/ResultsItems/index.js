@@ -1,7 +1,7 @@
  import Link from "next/link"
 import Image from "next/image"
 import styles from '@/components/ResultsItems/ResultsItems.module.css'
-import resultsInfo from "../resultsInfo"
+import ResultsInfo from "../ResultsInfo"
 export default function ResultsItems({
     img = '',
     text = '',

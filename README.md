@@ -14,6 +14,13 @@
  - Html
  - CSS
  - Javascript
+
+ # Lottie Animation
+
+ ## Install Lottie player
+ ```
+ npm install lottie-web
+ ```
   
 
 
