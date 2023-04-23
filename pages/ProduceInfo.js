@@ -9,6 +9,7 @@ import Cilantro from "@/components/Veggies/Cilantro";
 import Carrot from "@/components/Veggies/Carrot";
 import Potato from "@/components/Veggies/Potato";
 import Zucchini from "@/components/Veggies/Zucchini";
+import Cauliflower from "@/components/Veggies/Cauliflower";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -34,6 +35,8 @@ export default function ProduceInfo() {
     return <Potato/>
   }else if (text == "Zucchini"){
     return <Zucchini/>
+  }else if (text == "Cauliflower"){
+    return <Cauliflower/>
   }
 
 
