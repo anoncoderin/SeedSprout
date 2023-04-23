@@ -9,8 +9,9 @@ import NavBar from "@/components/NavBar";
 
 export default function Results() {
   const router = useRouter()
-  const choices = JSON.parse(router.query.choices)
-  const data = JSON.parse(router.query.data)
+  
+  const choices = router.query.choices ? JSON.parse(router.query.choices) : [];
+  const data = router.query.data ? JSON.parse(router.query.data) : [];
 
   const [indexData, setIndexData] = useState(data[0]);
   const [color, setColor] = useState();
