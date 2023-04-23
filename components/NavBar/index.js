@@ -1,69 +1,36 @@
-import Link from 'next/link'
-import { useState } from 'react'
 import Image from 'next/image'
-import styles from '@/components/NavBar/NavBar.module.css'
+import Link from 'next/link'
+import styles from './NavBar.module.css'
 
-export default function NavBar() {
-  const [overlay, setOverlay] = useState(false);
-
-  function toggleMenu() {
-    setOverlay(!overlay);
-  }
-
-  return (
-    <div className={styles.navBarContainer}>
-      
-      <div className={styles.logoContainer}>
-        <Image src='/logo/logo.svg' width={40} height={38} />
-        
-      </div>
-      
-      {/* <div
-        className={styles.hamburgerContainer}
-        onClick={() => toggleMenu()}
-      >
-        <Image src='/icons/hamburger.svg' width={50} height={50} />
-       
-      </div> */}
-
-      {overlay && (
-        <div className={styles.popupContent}>
-          {/**Copy and paste a div to add items to navBar. May need to adjust height of overlay in css file aswell.*/}
-          <div>
+export default function NavBar(){
+    return(
+        <>
+        <div className={styles.navBarContainer}>
+            <div className={styles.homeContainer}>
             <Link href='/'>
-              <div>
-                <Image src='/icons/HomeIcon.svg' width={20} height={20} />
+              <div className={styles.itemContainer}>
+                <Image src='/icons/HomeIcon.svg' width={30} height={30} />
                 Home
               </div>
             </Link>
-          </div>
-          <div>
+            </div>
+            <div className={styles.aboutUsContainer}>
             <Link href='/AboutUs'>
-              <div>
-                <Image src='/icons/AboutUsIcon.svg' width={20} height={20} />
+              <div className={styles.itemContainer}>
+                <Image src='/icons/AboutUsIcon.svg' width={30} height={30} />
                 About Us
               </div>
             </Link>
-          </div>
-          <div>
+            </div>
+            <div className={styles.catalogueContainer}>
             <Link href='/ProduceCatalogue'>
-              <div>
-                <Image src='/icons/CatalogueIcon.svg' width={20} height={20} />
+              <div className={styles.itemContainer}>
+                <Image src='/icons/CatalogueIcon.svg' width={30} height={30} />
                 Catalogue
               </div>
             </Link>
-          </div>
-          <div>
-            <Link href='/Tutorial'>
-              <div>
-                <Image src='/icons/TakeQuizIcon.svg' width={20} height={20} />
-                Take Quiz
-              </div>
-            </Link>
-          </div>
+            </div>
         </div>
-      )}
-      
-    </div>
-  );
+        </>
+    )
 }

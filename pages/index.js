@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import NavBar from "@/components/NavBar";
+import TopBar from "@/components/TopBar";
 import Button from "@/components/Button";
-import Chart from "@/components/Chart";
-import NavBarBottom from "@/components/NavBarBottom";
+import NavBar from "@/components/NavBar";
 import lottie from "lottie-web";
 import { createRef, useEffect } from 'react'
 
@@ -36,10 +35,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.animation_container} ref={animationContainer} />
-
-
         <NavBar />
-        <NavBarBottom />
         <div className={styles.main_container}>
           <Image
             src="/logo/logo-with-text.svg"

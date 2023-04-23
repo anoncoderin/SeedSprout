@@ -4,8 +4,8 @@ import styles from '@/styles/Results.module.css'
 import { useRouter } from 'next/router'
 import Button from "@/components/Button";
 import { useState } from 'react'
-import NavBarBottom from "@/components/NavBarBottom";
-import NavBar from "@/components/NavBar";
+import NavBarBottom from "@/components/NavBar";
+import NavBar from "@/components/TopBar";
 
 export default function Results() {
   const router = useRouter()

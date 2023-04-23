@@ -1,16 +1,27 @@
 .container {
-        font-family: 'Jost', sans-serif;
-        font-size: 2rem;
-        background-color: var(--mantisGreen);
-        width: 12.063rem;
-        height: 3.813rem;
-        border-radius: 15px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    background-color: var(--mantisGreen);
+    width: 12.063rem;
+    height: 3.813rem;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.1s;
 }
 
 .graphicImage {
     margin-left: -70px;
+}
+
+.container:focus {
+    background-color: var(--polyGreen);
+}
+
+.container:active {
+    transform: translateY(5px);
+    transition: 0.1s;
 }

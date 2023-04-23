@@ -18,9 +18,9 @@ export default function AboutUs() {
             </Head>
             <main className={styles.main}>
                 <NavBar />
+                <h1 className={styles.Header}>About Us</h1>
                 <h1 className={styles.Header}>{title}</h1>
                 <div className={styles.container}>
-                    
                     <div className={styles.section}>
                         <Image src='/graphics/neema.svg' width={100.4} height={144} />
                         <div className={styles.description}>

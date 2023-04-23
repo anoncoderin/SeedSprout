@@ -1,28 +1,27 @@
-.main{
-height: 100vh;
-}
-.main_container{
+.main_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 02.9375rem;
+    margin-top: 5rem;
 }
 
-.home_buttons{
-display: flex;
-flex-direction: column;
-gap: 0.9375rem;
+.home_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
 }
-.para_main_page{
+
+.para_main_page {
     margin-left: 5.9375rem;
     margin-right: 4.9375rem;
     margin-bottom: 2.935rem;
 }
-.animation_container{
+
+.animation_container {
     position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/ProduceCatalogue.module.css'
 import Accordion from '@/components/Accordion'
-import NavBar from '@/components/NavBar'
+import NavBar from '@/components/TopBar'
 
 export default function ProduceCatalogue() {
     return (
