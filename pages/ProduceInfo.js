@@ -10,6 +10,8 @@ import Carrot from "@/components/Veggies/Carrot";
 import Potato from "@/components/Veggies/Potato";
 import Zucchini from "@/components/Veggies/Zucchini";
 import Cauliflower from "@/components/Veggies/Cauliflower";
+import Lettuce from "@/components/Veggies/Lettuce";
+import BrusselSprout from "@/components/Veggies/BrusselSprout";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -37,7 +39,12 @@ export default function ProduceInfo() {
     return <Zucchini/>
   }else if (text == "Cauliflower"){
     return <Cauliflower/>
+  }else if (text == "Lettuce"){
+    return <Lettuce/>
+  }else if (text == "Brussel Sprout"){
+    return <BrusselSprout/>
   }
+
 
 
  
