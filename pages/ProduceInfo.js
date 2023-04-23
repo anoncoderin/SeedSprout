@@ -11,6 +11,8 @@ import Zucchini from "@/components/Veggies/Zucchini";
 import Cauliflower from "@/components/Veggies/Cauliflower";
 import Lettuce from "@/components/Veggies/Lettuce";
 import BrusselSprout from "@/components/Veggies/BrusselSprout";
+import Cabbage from "@/components/Veggies/Cabbage";
+import Radish from "@/components/Veggies/Radish";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -42,6 +44,10 @@ export default function ProduceInfo() {
     return <Lettuce/>
   }else if (text == "Brussel Sprout"){
     return <BrusselSprout/>
+  }else if (text == "Cabbage"){
+    return <Cabbage/>
+  }else if (text == "Radish"){
+    return <Radish/>
   }
   else if (text == "Apples") {
     return <Apples />
