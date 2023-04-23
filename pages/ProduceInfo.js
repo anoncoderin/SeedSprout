@@ -6,6 +6,8 @@ import Corn from "@/components/Veggies/Corn";
 import Okra from "@/components/Veggies/Okra";
 import Carrot from "@/components/Veggies/Carrot";
 import Cilantro from "@/components/Veggies/Cilantro";
+import Carrot from "@/components/Veggies/Carrot";
+import Potato from "@/components/Veggies/Potato";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -23,6 +25,12 @@ export default function ProduceInfo() {
     return <Carrot/>
   } else if (text== "Cilantro"){
     return <Cilantro/>
+  } else if (text == "Carrot"){
+    return <Carrot/>
+  } else if (text == "BellPepper"){
+    return <BellPepper/>
+  }else if (text == "Potato"){
+    return <Potato/>
   }
 
  
