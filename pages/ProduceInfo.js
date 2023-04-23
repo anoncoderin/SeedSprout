@@ -6,10 +6,13 @@ import Corn from "@/components/Veggies/Corn";
 import Okra from "@/components/Veggies/Okra";
 import Carrot from "@/components/Veggies/Carrot";
 import Cilantro from "@/components/Veggies/Cilantro";
-import Carrot from "@/components/Veggies/Carrot";
 import Potato from "@/components/Veggies/Potato";
 import Zucchini from "@/components/Veggies/Zucchini";
 import Cauliflower from "@/components/Veggies/Cauliflower";
+import Apples from "@/components/Fruits/Apples";
+import Apricots from "@/components/Fruits/Apricots"
+import Blackberries from "@/components/Fruits/Blackberries";
+import Cantaloupe from "@/components/Fruits/Cantaloupe";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -37,7 +40,15 @@ export default function ProduceInfo() {
     return <Zucchini/>
   }else if (text == "Cauliflower"){
     return <Cauliflower/>
-  }
+ } else if (text == "Apples") {
+    return <Apples />
+  } else if (text == "Apricots") {
+    return <Apricots />
+  }else if (text == "Blackberries") {
+    return <Blackberries />
+  } else if (text == "Cantaloupe") {
+    return <Cantaloupe />
+  } 
 
 
  
