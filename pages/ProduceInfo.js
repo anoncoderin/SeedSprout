@@ -14,6 +14,8 @@ import BrusselSprout from "@/components/Veggies/BrusselSprout";
 import Cabbage from "@/components/Veggies/Cabbage";
 import Radish from "@/components/Veggies/Radish";
 import Broccoli from "@/components/Veggies/Broccoli";
+import Turnip from "@/components/Veggies/Turnip";
+import Beet from "@/components/Veggies/Beet";
 
 
 export default function ProduceInfo() {
@@ -52,6 +54,10 @@ export default function ProduceInfo() {
     return <Radish/>
   }else if (text == "Broccoli"){
     return <Broccoli/>
+  }else if (text == "Turnip"){
+    return <Turnip/>
+  }else if (text == "Beet"){
+    return <Beet/>
   }
   else if (text == "Apples") {
     return <Apples />
