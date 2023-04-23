@@ -17,6 +17,7 @@ import Broccoli from "@/components/Veggies/Broccoli";
 import Turnip from "@/components/Veggies/Turnip";
 import Beet from "@/components/Veggies/Beet";
 import SweetPotato from "@/components/Veggies/SweetPotato";
+import Peas from "@/components/Veggies/Peas";
 
 
 export default function ProduceInfo() {
@@ -61,6 +62,8 @@ export default function ProduceInfo() {
     return <Beet/>
   }else if (text == "SweetPotato"){
     return <SweetPotato/>
+  }else if (text == "Peas"){
+    return <Peas/>
   }
   else if (text == "Apples") {
     return <Apples />
