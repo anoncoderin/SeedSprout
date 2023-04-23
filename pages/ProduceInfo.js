@@ -6,7 +6,6 @@ import Corn from "@/components/Veggies/Corn";
 import Okra from "@/components/Veggies/Okra";
 import Carrot from "@/components/Veggies/Carrot";
 import Cilantro from "@/components/Veggies/Cilantro";
-import Carrot from "@/components/Veggies/Carrot";
 import Potato from "@/components/Veggies/Potato";
 import Zucchini from "@/components/Veggies/Zucchini";
 import Cauliflower from "@/components/Veggies/Cauliflower";
@@ -44,6 +43,15 @@ export default function ProduceInfo() {
   }else if (text == "Brussel Sprout"){
     return <BrusselSprout/>
   }
+  else if (text == "Apples") {
+    return <Apples />
+  } else if (text == "Apricots") {
+    return <Apricots />
+  }else if (text == "Blackberries") {
+    return <Blackberries />
+  } else if (text == "Cantaloupe") {
+    return <Cantaloupe />
+  } 
 
 
 

@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Chart from "@/components/Chart";
 
 
-export default function Blueberries() {
+export default function Appicots() {
   const router = useRouter();
 
   return (
@@ -13,38 +13,37 @@ export default function Blueberries() {
       <div className={styles.container}>
         <div className={styles.produce_description}>
           <div>
-            <h1 className={styles.header}>Blueberries</h1>
-            <Image src={"/fruitsAndVeggiesImages/blueberries.svg"} width={360} height={216} />
+            <h1 className={styles.header}>Apicots</h1>
+            <Image src={"/fruitsAndVeggiesImages/apricots.svg"} width={360} height={216} />
             <div className={styles.tips}>
-              <h1 className={styles.header_tips}>Tips on growing blueberries</h1>
+              <h1 className={styles.header_tips}>Tips on growing Apricots</h1>
               <div className={styles.numbered_tips}>
                 <h2 className={styles.numbered}>1.</h2>
                 <p>
-                  Blueberries prefer well-drained soil that is high in organic matter. They also need
-                  a location that gets full sun for at least six hours a day.
+                Apricot trees require full sunlight to thrive, so choose a sunny spot in your garden for planting. Make sure the area has well-drained soil and is protected from frost pockets, as apricot flowers are sensitive to late frost.
                 </p>
               </div>
               <div className={styles.numbered_tips}>
                 <h2 className={styles.numbered}>2.</h2>
                 <p>
-                  Blueberries need regular watering, especially during the first year after planting.
-                  Make sure the soil is moist but not waterlogged.
+                Dig a hole that is wide and deep enough to accommodate the tree's root system. Loosen the soil at the bottom of the hole and mix in some organic matter, such as compost or well-rotted manure, to provide essential nutrients for the tree's growth.
+
                 </p>
               </div>
               <div className={styles.numbered_tips}>
                 <h2 className={styles.numbered}>3.</h2>
                 <p>
-                  Space the plants 4 to 5 feet apart, and make sure the planting hole is twice as wide
-                  and as deep as the root ball. Water thoroughly after planting.
+                Prune your apricot tree annually to promote healthy growth and fruit production. Remove any dead, diseased, or crossing branches, and maintain an open canopy to allow sunlight to penetrate into the tree's interior.
+
                 </p>
               </div>
               <Chart 
                 mNum={6} 
                 ttfgNum={8} 
-                dcNum={7} 
-                seNum={8} 
-                rtgNum={5} 
-                name="Blueberries"
+                dcNum={8} 
+                seNum={7} 
+                rtgNum={8} 
+                name="Apricots"
               />
             </div>
             <div>
