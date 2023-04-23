@@ -13,6 +13,8 @@ import Lettuce from "@/components/Veggies/Lettuce";
 import BrusselSprout from "@/components/Veggies/BrusselSprout";
 import Cabbage from "@/components/Veggies/Cabbage";
 import Radish from "@/components/Veggies/Radish";
+import Broccoli from "@/components/Veggies/Broccoli";
+
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -48,6 +50,8 @@ export default function ProduceInfo() {
     return <Cabbage/>
   }else if (text == "Radish"){
     return <Radish/>
+  }else if (text == "Broccoli"){
+    return <Broccoli/>
   }
   else if (text == "Apples") {
     return <Apples />
