@@ -16,7 +16,7 @@ export default function Home() {
       rerender: "svg",
       loop: true,
       autoplay: true,
-      path: "/animations/homepagebg.json"
+      path: "/animations/HomePageBg.json"
     })
 
     return () => anim.destroy();
