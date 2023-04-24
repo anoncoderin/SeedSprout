@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Router from "next/router";
-import styles from "@/components/ResultsInfo/resultsInfo.module.css";
+import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import { useRouter } from "next/router";
 
 export default function Corn({}) {

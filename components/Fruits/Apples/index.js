@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/components/resultsInfo/ResultsInfo.module.css";
+import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import Button from "@/components/Button";
 import { useRouter } from "next/router";
 import Chart from "@/components/Chart";

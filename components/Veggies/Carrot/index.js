@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import styles from "@/components/ResultsInfo/resultsInfo.module.css";
+import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 
 export default function Carrot({}) {
   const router = useRouter();
