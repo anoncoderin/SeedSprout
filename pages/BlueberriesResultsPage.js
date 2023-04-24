@@ -17,13 +17,13 @@ export default function BlueberriesResultsPage() {
             </Head>
             <main className={styles.main}>
                 <NavBar />
-                <ResultsInfo 
+                {/* <ResultsInfo 
                 img='\fruitsAndVeggiesImages\blueberries.svg'
                 title='Blueberries'
                 itemTitle='blueberries'
                 tipOne='Blueberries prefer well-drained soil that is high in organic matter. They also need a location that gets full sun for at least six hours a day.'
                 tipTwo='Blueberries need consistent moisture to thrive. Water deeply once a week, or more frequently during hot, dry weather.'
-                tipThree='Blueberries benefit from a layer of mulch around the base of the plants to help retain moisture and regulate soil temperature.'/>
+                tipThree='Blueberries benefit from a layer of mulch around the base of the plants to help retain moisture and regulate soil temperature.'/> */}
 
 
                
