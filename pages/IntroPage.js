@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/IntroPage.module.css";
-import NavBar from "@/components/TopBar";
+import TopBar from "@/components/TopBar";
 import Button from "@/components/Button";
-
+import NavBar from "@/components/NavBar";
 
 export default function IntroPage() {
   return (
@@ -18,7 +18,8 @@ export default function IntroPage() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
-        <NavBar />
+        <TopBar />
+        <NavBar/>
         <div className={styles.main_container}>
           <h1 className={styles.h1_size}>Welcome</h1>
           <div className={styles.para_main}>

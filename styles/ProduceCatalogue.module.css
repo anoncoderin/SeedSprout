@@ -3,7 +3,7 @@
 .main {
     background-color: var(--beige);
     font-family: 'Jost', sans-serif;
-    height: 100vh;
+   margin-bottom: 4rem;
 }
 
 .pageHeader {

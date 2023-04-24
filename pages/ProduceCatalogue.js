@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '@/styles/ProduceCatalogue.module.css'
 import Accordion from '@/components/Accordion'
-import NavBar from '@/components/TopBar'
+import TopBar from '@/components/TopBar'
+import NavBar from '@/components/NavBar'
 
 export default function ProduceCatalogue() {
     return (
@@ -13,6 +14,7 @@ export default function ProduceCatalogue() {
                 <link rel="icon" href="/favicon.svg" />
             </Head>
             <main className={styles.main}>
+                <TopBar/>
                 <NavBar/>
                 <div className={styles.catalogueContainer}>
                     <div>

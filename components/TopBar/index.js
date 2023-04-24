@@ -6,7 +6,6 @@ export default function TopBar() {
     <div className={styles.navBarContainer}>
       <div className={styles.logoContainer}>
         <Image src='/logo/logo.svg' width={40} height={38} />
-        
       </div>
       <h1 className={styles.header}>Seed Sprout</h1>
     </div>

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/AboutUs.module.css'
 import NavBar from '@/components/NavBar'
+import TopBar from '@/components/TopBar'
 
 
 
@@ -17,6 +18,7 @@ export default function AboutUs() {
                 <link rel="icon" href="/favicon.svg" />
             </Head>
             <main className={styles.main}>
+                <TopBar/>
                 <NavBar />
                 <h1 className={styles.Header}>About Us</h1>
                 <h1 className={styles.Header}>{title}</h1>

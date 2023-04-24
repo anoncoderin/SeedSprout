@@ -22,6 +22,17 @@
     border-width: 2px;
 }
 
+.quizHeader{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: -2rem
+
+}
+
+.spacer{
+  margin-bottom: 2rem;
+}
+
 .questionHeader{
     text-align: center;
     margin: 0;

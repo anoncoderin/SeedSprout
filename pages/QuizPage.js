@@ -1,5 +1,4 @@
 import Head from "next/head";
-import NavBar from "@/components/TopBar";
 import Button from "@/components/Button";
 import QuizProgress from "@/components/QuizProgress";
 import styles from "@/styles/Quiz.module.css";
@@ -7,13 +6,11 @@ import { useState, useEffect } from "react";
 import QuizContents from "@/components/QuizContents";
 import Title from "@/components/Title";
 import { useRouter } from "next/router";
-import Image from "next/image";
-
-import Test from "@/components/SummeryItems";
+import TopBar from "@/components/TopBar";
+import NavBar from "@/components/NavBar";
 
 
 export default function QuizPage() {
-  const [num, setNum] = useState(5);
 
   const [data, setData] = useState('');
   const [number, setNumber] = useState(1);
@@ -23,7 +20,7 @@ export default function QuizPage() {
 
   const changeQuestion = (binary, choice, index) => {
     if (number == -1) {
-      router.push("/");
+      router.push("/Tutorial");
     } else if (number == 1) {
       if (data.length == 0) {
         setData(data + binary);
@@ -89,8 +86,10 @@ export default function QuizPage() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
+        <TopBar />
         <NavBar />
         <div className={styles.bodyContent}>
+
           <QuizProgress question={number} />
 
           {number == 1 ? (
@@ -115,8 +114,8 @@ export default function QuizPage() {
           ) : (
             <></>
           )}
-          image: {choices} data: {data}, string length:{" "}
-          {data.length} choicelength: {choices.length}
+          {/* image: {choices} data: {data}, string length:{" "}
+          {data.length} choicelength: {choices.length} */}
           {number == 2 ? (
             <div className={styles.quizContainer}>
               <Title title="How large is your garden bed?" />
@@ -168,12 +167,9 @@ export default function QuizPage() {
                 <QuizContents
                   option={["Autumn", "/graphics/fallSeason.svg", 70, 150]}
                 />
-
               </span>
-              <div>
-              </div>
-
             </div>
+            
           ) : (
             <></>
           )}
@@ -184,7 +180,7 @@ export default function QuizPage() {
               <span onClick={() => backHandler()}>
                 <Button
                   size={["9.188rem", "2.905rem"]}
-                  link="/"
+                  link="/Tutorial"
                   text="Back"
 
                 />

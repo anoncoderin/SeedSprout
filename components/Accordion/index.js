@@ -16,14 +16,16 @@ export default function Accordion() {
     }
   };
 
+  const organizedData = fruitsAndVeggiesCatalogue.sort((a, b) => a.title.localeCompare(b.title))
+
   return (
     <>
       {/* Div that contains the entire accordion */}
       <div className={styles.accordion}>
-        <h3 className={styles.itemTypeHeader}>Fruits</h3>
+        <h3 className={styles.itemTypeHeader} style={{ color: 'rgb(var(--fruitBlue))' }}>Fruits</h3>
         {
           /* Maps through fruitsAndVeggiesCatalogue data to make an accordion for each item */
-          fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, index) => (
+          organizedData && organizedData.map((item, index) => (
             //Filters through data and grabs items with type === "Vegetable"
             item.type === 'fruit' &&
             <div className={styles.accordionSection} key={index}>
@@ -38,7 +40,6 @@ export default function Accordion() {
               {
                 index === activeIndex && (
                   <div className={styles.accordionContent}>
-                    {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
                     <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
                     <div ><Image src={item.img} width={292} height={136}/></div>
                     <p className={styles.itemContentP}>
@@ -53,7 +54,7 @@ export default function Accordion() {
         }
         <h3 className={styles.itemTypeHeader}>Vegetables</h3>
         {
-          fruitsAndVeggiesCatalogue && fruitsAndVeggiesCatalogue.map((item, index) => (
+          organizedData && organizedData.map((item, index) => (
             //Filters through data and grabs items with type === "Vegetable"
             item.type === 'Vegetable' &&
             <div className={styles.accordionSection} key={index}>
