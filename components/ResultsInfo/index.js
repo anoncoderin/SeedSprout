@@ -19,8 +19,6 @@ export default function ResultsInfo({
       <div className={styles.container}>
         <div className={styles.produce_description}>
           {
-           
-           
                 <div>
                   <h1 className={styles.header}>{title}</h1>
                   <Image src={img} width={360} height={216} />
