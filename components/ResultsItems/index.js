@@ -19,7 +19,7 @@ export default function ResultsItems({
                         <div className={styles.textContainer}>
                             <h3>{text}</h3>
                         </div>
-                        <div className={styles.arrowContainer} style={{ backgroundColor: `rgba(${color}, 0.8)` }}>
+                        <div className={styles.arrowContainer} style={{ backgroundColor: `rgba(${color}, 0.7)` }}>
                             <Image src='/icons/sideArrow.svg' width={30} height={30} />
                         </div>
                     </div>

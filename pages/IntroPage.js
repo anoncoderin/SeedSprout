@@ -97,7 +97,7 @@ export default function IntroPage() {
         </div>
         <div className={styles.buttonContainer}>
           <Button size={["8.063rem", "3.813rem"]} text="Home" link="/" color='var(--seedBrown)'/>
-          <Button size={["12.063rem", "3.813rem"]} text="Take Quiz" link="/Tutorial" color='var(--mantisGreen)'/>
+          <Button size={["12.063rem", "3.813rem"]} text="Tutorial" link="/Tutorial" color='var(--mantisGreen)'/>
           </div>
         <div className={styles.footer_box}>
           

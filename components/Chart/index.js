@@ -55,7 +55,7 @@ export default function Chart({
                 },
                 title: {
                     display: true,
-                    text: "Seed Sprout Stats"
+                    text: `${name} growth statistics`
                 }
             },
             scale: {
