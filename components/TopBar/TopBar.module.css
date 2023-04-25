@@ -3,7 +3,7 @@
 
 .navBarContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--polyGreen);
   color: white;
@@ -16,13 +16,15 @@
   font-weight: 100;
   font-size: 2.4rem;
   margin: 0;
-  margin-left: 1.5rem;
+  text-align: center;
 }
 
 .logoContainer {
-  margin-right: 1rem;
   background-color: var(--lightGreen);
   padding: 0.6rem;
   border-radius: 100%;
 }
 
+.space{
+width: 3.745rem;
+}

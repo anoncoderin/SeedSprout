@@ -32,7 +32,7 @@ export default function Button({
                     <div
                         className={styles.buttonContainer}
                         style={{ width: size[0], height: size[1] }}
-                        onClick={ () => handleClick()}
+                        onClick={() => handleClick()}
                     >
                         <span>{text}</span>
                     </div>
@@ -45,7 +45,7 @@ export default function Button({
                     <div
                         className={styles.buttonContainer}
                         style={{ width: size[0], height: size[1] }}
-                        onClick={ () => handleClick()}
+                        onClick={() => handleClick()}
                     >
                         <span>{text}</span>
                     </div>

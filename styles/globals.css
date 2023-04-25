@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Jost');
 
 :root {
-/** Colors*/
---lightGreen: #EBFFEE;
---mantisGreen: #5FBF6A;
---sproutGreen: #3B9545;
---polyGreen: #1D4923;
---chocolateBrown: #844D0B;
---seedBrown: #603808;
---darkBrown: #392105;
---vegeOrange: 255, 136, 0;
---fruitBlue: 79, 134, 247;
---beige: #F8F9F0;
+    /** Colors*/
+    --lightGreen: #EBFFEE;
+    --mantisGreen: #5FBF6A;
+    --sproutGreen: #3B9545;
+    --polyGreen: #1D4923;
+    --chocolateBrown: #844D0B;
+    --seedBrown: #603808;
+    --darkBrown: #392105;
+    --vegeOrange: 255, 136, 0;
+    --fruitBlue: 79, 134, 247;
+    --beige: #F8F9F0;
 }
 
-body{
+body {
     background-color: var(--beige);
     margin: 0;
 }
-h1, h2, h3, h4, h5 {
-    font-family: 'Jost';
-}
-p{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Jost';
 }
 
+p {
+    font-family: 'Jost';
+}

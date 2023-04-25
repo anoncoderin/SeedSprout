@@ -1,24 +1,24 @@
-.container{
+.container {
     border-style: solid;
     border-width: 2px;
-    border-color:var(--sproutGreen);
+    border-color: var(--sproutGreen);
     margin-left: 7px;
     margin-right: 7px;
     padding-left: 4vw;
     padding-right: 4vw;
     margin-top: -15px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-
-.main{
+    display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    flex-direction: column;
 }
 
-.Header{
+.main {
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
     font-family: 'Jost';
     font-size: 34px;
     text-align: center;
@@ -26,14 +26,15 @@
 
 }
 
-.section{
+.section {
     display: flex;
     justify-content: center;
     gap: 70px;
     margin-bottom: 70px;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.section_madhu{
+
+.section_madhu {
     display: flex;
     justify-content: center;
     gap: 70px;
@@ -41,34 +42,34 @@
     margin-bottom: 70px;
 }
 
-.description_madhu{
+.description_madhu {
     margin-left: 20px;
     line-height: 10px;
     margin-top: 50px;
 }
 
 
-.description{
+.description {
     line-height: 10px;
     margin-top: 50px;
-    
+
 }
 
-.role{
+.role {
     text-align: center;
     font-family: 'Jost';
     font-size: 16px;
 }
 
-.name{
+.name {
     font-size: 24px;
     font-family: 'Jost';
 }
 
 
 
-@media screen and (min-width:850px){
-    .container{
+@media screen and (min-width:850px) {
+    .container {
         margin-left: 200px;
         margin-right: 200px;
     }

@@ -94,7 +94,7 @@ export default function QuizPage() {
 
           {number == 1 ? (
             <div className={styles.quizContainer}>
-              <Title title="Which one do you want to grow?" />
+              <Title title="What produce do you want to grow?" />
               <span onClick={() => changeQuestion("0", "fruitBundle", "0")}>
                 <QuizContents
                   option={["Fruits", "/graphics/fruitBundle.svg", 90, 150]}
@@ -169,7 +169,7 @@ export default function QuizPage() {
                 />
               </span>
             </div>
-            
+
           ) : (
             <></>
           )}
@@ -209,6 +209,7 @@ export default function QuizPage() {
                     size={["9.188rem", "2.905rem"]}
                     link=""
                     text="Next"
+                    color='var(--mantisGreen)'
                   />
                 </span>
               </div>) : (
@@ -228,6 +229,7 @@ export default function QuizPage() {
                     size={["9.188rem", "2.905rem"]}
                     link=""
                     text="Next"
+                    color='var(--mantisGreen)'
                   />
                 </span>
               </div>) : (

@@ -3,7 +3,7 @@
 .main {
     background-color: var(--beige);
     font-family: 'Jost', sans-serif;
-   margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .pageHeader {
@@ -23,5 +23,4 @@
 
 .catalogueContainer {
     padding: 2rem;
-
 }

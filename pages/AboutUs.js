@@ -18,7 +18,7 @@ export default function AboutUs() {
                 <link rel="icon" href="/favicon.svg" />
             </Head>
             <main className={styles.main}>
-                <TopBar/>
+                <TopBar />
                 <NavBar />
                 <h1 className={styles.Header}>About Us</h1>
                 <h1 className={styles.Header}>{title}</h1>
@@ -31,11 +31,11 @@ export default function AboutUs() {
                         </div>
                     </div>
 
-                    <div className= {styles.section_madhu}> 
+                    <div className={styles.section_madhu}>
                         <Image src='/graphics/madhu.svg' width={149} height={138} />
                         <div className={styles.description_madhu}>
                             <h1 className={styles.name}>Madhu</h1>
-                            <p className= {styles.role}>Role</p>
+                            <p className={styles.role}>Role</p>
                         </div>
                     </div>
 

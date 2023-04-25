@@ -14,14 +14,14 @@ export default function ProduceCatalogue() {
                 <link rel="icon" href="/favicon.svg" />
             </Head>
             <main className={styles.main}>
-                <TopBar/>
-                <NavBar/>
+                <TopBar />
+                <NavBar />
                 <div className={styles.catalogueContainer}>
                     <div>
-                    <h1 className={styles.pageHeader}>Produce Catalogue</h1>
-                    <h2 className={styles.pageSubHeader}>Tips on how you can grow your fruits and vegetables.</h2>
+                        <h1 className={styles.pageHeader}>Produce Catalogue</h1>
+                        <h2 className={styles.pageSubHeader}>Tips on how you can grow your fruits and vegetables.</h2>
                     </div>
-                <Accordion />
+                    <Accordion />
                 </div>
             </main>
         </>

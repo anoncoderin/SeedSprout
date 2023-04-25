@@ -11,7 +11,7 @@ export default function ResultsItems({
 }) {
     return (
         <>
-           <Link className={styles.link} href={{ pathname: '/ProduceInfo', query: { text } }}>
+            <Link className={styles.link} href={{ pathname: '/ProduceInfo', query: { text } }}>
                 <div className={styles.mainContainer} style={{ backgroundImage: `url(${img})`, borderRadius: '6px' }}>
                     <div className={styles.overlay}>
                         <div className={styles.textContainer}>

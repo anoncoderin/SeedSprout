@@ -22,6 +22,9 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
 }
 
 .accordionSection {
@@ -44,18 +47,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sectionHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left:0.625rem; 
-   margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 .itemContentP {
-   margin-left:0.625rem; 
-   margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.image {
+    border-radius: 1rem;
 }

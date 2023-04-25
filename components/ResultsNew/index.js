@@ -26,7 +26,7 @@ export default function ResultsNew(userinput) {
         <h2 style={{ color: `rgb(${color})`, margin: 0, marginTop: '1rem' }}>Results</h2>
 
         <span className={styles.p_text}>
-          These {data} are the most suitable for you to grow<br/> based on your
+          These {data} are the most suitable for you to grow<br /> based on your
           results.
         </span>
 

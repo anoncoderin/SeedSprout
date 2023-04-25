@@ -21,7 +21,7 @@ ChartJS.register(
 );
 
 export default function Chart({
-    mNum, 
+    mNum,
     ttfgNum,
     dcNum,
     seNum,

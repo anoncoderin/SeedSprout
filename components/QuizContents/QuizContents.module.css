@@ -11,10 +11,11 @@
     align-items: center;
     border: none;
     transition: 0.1s;
+    gap: 0.3rem;
 }
 
 .graphicImage {
-    margin-left: -70px;
+    margin-left: -4.375rem;
 }
 
 .container:focus {

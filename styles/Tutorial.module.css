@@ -1,19 +1,19 @@
-.main_container{
+.main_container {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 6.5rem;
 }
 
-.h1_size{
+.h1_size {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Jost';
 }
 
-.para_main{
+.para_main {
     display: flex;
     flex-direction: column;
     margin-left: 10vw;
@@ -26,7 +26,12 @@
     text-align: left;
 }
 
-.girl_image{
+.girl_image {
     margin-left: 15vw;
     margin-top: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
 }

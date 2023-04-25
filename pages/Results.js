@@ -9,7 +9,7 @@ import NavBar from "@/components/TopBar";
 
 export default function Results() {
   const router = useRouter()
-  
+
   const choices = router.query.choices ? JSON.parse(router.query.choices) : [];
   const data = router.query.data ? JSON.parse(router.query.data) : [];
 
@@ -25,8 +25,8 @@ export default function Results() {
   }
   return (
     <>
-    <NavBar/>
-    <NavBarBottom/>
+      <NavBar />
+      <NavBarBottom />
       <div className={styles.container}>
         <div className={styles.summaryContainer}>
           <h2 style={{ color: `rgb(${color})` }} >Summary</h2>

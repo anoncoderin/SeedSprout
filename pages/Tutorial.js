@@ -20,8 +20,8 @@ export default function Tutorial() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={styles.main}>
-        <TopBar/>
-        <NavBar/>
+        <TopBar />
+        <NavBar />
         <div className={styles.main_container}>
           <h1 className={styles.h1_size}>Tutorial</h1>
           <div className={styles.para_main}>
@@ -46,7 +46,10 @@ export default function Tutorial() {
             </p>
           </div>
           <br></br>
-          <Button text="Continue to quiz" size={["12.063rem", "3.813rem"]} link="/QuizPage" color={'var(--mantisGreen'}/>
+          <div className={styles.buttonContainer}>
+            <Button size={["8.063rem", "3.813rem"]} text="Back" link="/IntroPage" color='var(--seedBrown)' />
+            <Button text="Continue to quiz" size={["12.063rem", "3.813rem"]} link="/QuizPage" color={'var(--mantisGreen'} />
+          </div>
         </div>
       </main>
     </>

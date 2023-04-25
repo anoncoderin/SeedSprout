@@ -41,7 +41,7 @@ export default function Accordion() {
                 index === activeIndex && (
                   <div className={styles.accordionContent}>
                     <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
-                    <div ><Image src={item.img} width={292} height={136}/></div>
+                    <div ><Image className={styles.image} src={item.img} width={292} height={136} /></div>
                     <p className={styles.itemContentP}>
                       {item.content}
                     </p>
@@ -52,7 +52,7 @@ export default function Accordion() {
 
           ))
         }
-        <h3 className={styles.itemTypeHeader}>Vegetables</h3>
+        <h3 className={styles.itemTypeHeader} style={{ color: 'rgb(var(--vegeOrange))' }}>Vegetables</h3>
         {
           organizedData && organizedData.map((item, index) => (
             //Filters through data and grabs items with type === "Vegetable"
@@ -72,7 +72,7 @@ export default function Accordion() {
                   <div className={styles.accordionContent}>
                     {/* Need to add information and content and use classNames to distinguish colorus, etc.. */}
                     <h1 className={styles.sectionHeader}>Tips on growing {item.title}</h1>
-                    <div ><Image src={item.img} width={292} height={136}/></div>
+                    <div ><Image src={item.img} width={292} height={136} /></div>
                     <p className={styles.itemContentP}>
                       {item.content}
                     </p>

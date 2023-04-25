@@ -45,7 +45,7 @@ export default function Home() {
           <div className={styles.para_main_page}>
             <p>
               With Seed Sprout you can learn to grow your own fruits and
-              Vegetables.
+              vegetables.
             </p>
           </div>
           <div className={styles.home_buttons}>
