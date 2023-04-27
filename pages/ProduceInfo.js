@@ -18,7 +18,26 @@ import Turnip from "@/components/Veggies/Turnip";
 import Beet from "@/components/Veggies/Beet";
 import SweetPotato from "@/components/Veggies/SweetPotato";
 import Peas from "@/components/Veggies/Peas";
-
+import Cherries from "@/components/Fruits/Cherries";
+import Cranberries from "@/components/Fruits/Cranberries";
+import Cucumbers from "@/components/Fruits/Cucumbers";
+import Figs from "@/components/Fruits/Figs";
+import Gooseberries from "@/components/Fruits/Gooseberries";
+import Grapes from "@/components/Fruits/Grapes";
+import Honeydew from "@/components/Fruits/Honeydew";
+import Kiwi from "@/components/Fruits/Kiwi";
+import Lime from "@/components/Fruits/Lime";
+import Nectarine from "@/components/Fruits/Nectarines";
+import Olives from "@/components/Fruits/Olives";
+import Pears from "@/components/Fruits/Pears";
+import Persimmons from "@/components/Fruits/Persimmons";
+import Plums from "@/components/Fruits/Plum";
+import Pomegranate from "@/components/Fruits/Pome";
+import Raspberries from "@/components/Fruits/Raspberries";
+import Strawberries from "@/components/Fruits/Strawberries";
+import Blackberries from "@/components/Fruits/Blackberries";
+import Tomatoes from "@/components/Fruits/Tomatoes";
+import Watermelon from "@/components/Fruits/Watermelon";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -64,8 +83,7 @@ export default function ProduceInfo() {
     return <SweetPotato />
   } else if (text == "Peas") {
     return <Peas />
-  }
-  else if (text == "Apples") {
+  } else if (text == "Apples") {
     return <Apples />
   } else if (text == "Apricots") {
     return <Apricots />
@@ -73,10 +91,45 @@ export default function ProduceInfo() {
     return <Blackberries />
   } else if (text == "Cantaloupe") {
     return <Cantaloupe />
+  }else if (text == "Cherries") {
+    return <Cherries />
+  }else if (text == "Cranberries") {
+    return <Cranberries />
+  }else if (text == "Cucumbers") {
+    return <Cucumbers />
+  } else if (text == "Figs") {
+    return <Figs />
+  } else if (text == "Gooseberries"){
+    return <Gooseberries/>
+  } else if (text == "Grapes"){
+    return <Grapes/>
+  } else if (text == "Honeydew"){
+    return <Honeydew/>
+  } else if (text == "Kiwi"){
+    return <Kiwi/>
+  } else if (text == "Lime"){
+    return <Lime/>
+  } else if (text == "Nectarine"){
+    return <Nectarine/>
+  } else if (text == "Olives"){
+    return <Olives/>
+  } else if (text == "Pears"){
+    return <Pears/>
+  } else if (text == "Persimmons"){
+    return <Persimmons/>
+  } else if (text == "Plums"){
+    return <Plums/>
+  } else if (text == "Pomegranate"){
+    return <Pomegranate/>
+  } else if (text == "Raspberries"){
+    return <Raspberries/>
+  } else if (text == "Strawberries"){
+    return <Strawberries/>
+  } else if (text == "Tomatoes"){
+    return <Tomatoes/>
+  } else if (text == "Watermelon"){
+    return <Watermelon/>
   }
-
-
-
 
 
   // ...

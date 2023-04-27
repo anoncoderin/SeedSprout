@@ -81,22 +81,6 @@
       "roomToGrow": "6"
     },
     {
-      "title": "Bell Peppers",
-      "type": "Vegetable",
-      "img": "/fruitsAndVeggiesImages/Peppers.svg",
-      "content": "Peppers are a warm-season vegetable that can be grown in small spaces. They need well-draining soil, regular watering, and plenty of sunlight to produce a good crop.",
-      "color": "var(--vegeOrange)",
-      "index": [
-        "1010",
-        "1001"
-      ],
-      "maintenance": "5",
-      "timeToGrow": "7",
-      "difficulty": "6",
-      "sunExposure": "8",
-      "roomToGrow": "5"
-    },
-    {
       "title": "Cauliflower",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Cauliflower.svg",
@@ -332,8 +316,6 @@
       "content": "Plant your strawberries in a sunny spot with well-draining soil, water regularly, and fertilize monthly.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0000",
-        "0001",
         "0011"
       ],
       "maintenance": "5",
@@ -349,8 +331,7 @@
       "content": "Blueberries grow best in acidic soil with a pH between 4.0 and 5.5, full sun exposure, and consistent moisture.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0000",
-        "0012"
+        "0000"
       ],
       "maintenance": "6",
       "timeToGrow": "8",
@@ -365,8 +346,7 @@
       "content": "Plant blackberries in well-drained soil in a sunny location, prune regularly, and provide adequate water and fertilization for healthy growth.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0000",
-        "0012"
+        "0000"
       ],
       "maintenance": "5",
       "timeToGrow": "7",
@@ -381,7 +361,6 @@
       "content": "Plant raspberries in well-drained soil, prune annually, and provide ample sunlight and water for optimal growth.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0000",
         "0011"
       ],
       "maintenance": "6",
@@ -406,21 +385,6 @@
       "roomToGrow": "5"
     },
     {
-      "title": "Peppers",
-      "type": "fruit",
-      "img": "/fruitsAndVeggiesImages/Perpper.svg",
-      "content": "Plant peppers in a location with full sun exposure, well-draining soil, and consistent watering while fertilizing them regularly.",
-      "color": "var(--fruitBlue)",
-      "index": [
-        "0001"
-      ],
-      "maintenance": "6",
-      "timeToGrow": "8",
-      "difficulty": "6",
-      "sunExposure": "9",
-      "roomToGrow": "5"
-    },
-    {
       "title": "Cucumbers",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/cucumbers.svg",
@@ -434,36 +398,6 @@
       "difficulty": "6",
       "sunExposure": "8",
       "roomToGrow": "6"
-    },
-    {
-      "title": "Quince",
-      "type": "fruit",
-      "img": "/fruitsAndVeggiesImages/quince.svg",
-      "content": "Quinces grow best in well-draining soil with full sun exposure, and require regular watering and pruning to produce healthy fruit.",
-      "color": "var(--fruitBlue)",
-      "index": [
-        "0100"
-      ],
-      "maintenance": "5",
-      "timeToGrow": "9",
-      "difficulty": "7",
-      "sunExposure": "8",
-      "roomToGrow": "8"
-    },
-    {
-      "title": "Mulberries",
-      "type": "fruit",
-      "img": "/fruitsAndVeggiesImages/mulberries.svg",
-      "content": "Mulberries thrive in full sun and well-drained soil, and benefit from annual pruning to promote air circulation and fruit production.",
-      "color": "var(--fruitBlue)",
-      "index": [
-        "0100"
-      ],
-      "maintenance": "6",
-      "timeToGrow": "8",
-      "difficulty": "5",
-      "sunExposure": "9",
-      "roomToGrow": "7"
     },
     {
       "title": "Apricots",
@@ -502,8 +436,7 @@
       "content": "Plant cherry trees in well-drained soil, in a sunny location with good air circulation, and prune them regularly to encourage fruit production.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0100",
-        "0112"
+        "0100"
       ],
       "maintenance": "7",
       "timeToGrow": "8",
@@ -548,7 +481,6 @@
       "content": "Plant nectarine trees in a sunny location with well-draining soil, prune regularly, and protect from pests and diseases.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0101",
         "0110"
       ],
       "maintenance": "5",
@@ -564,7 +496,6 @@
       "content": "Plant pomegranate in well-draining soil, provide full sun exposure, and water deeply once a week during the growing season.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0102",
         "0110"
       ],
       "maintenance": "4",
@@ -580,8 +511,6 @@
       "content": "Plant grapes in well-draining soil, provide adequate sunlight and water, prune regularly, and protect from pests and diseases.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0002",
-        "0011",
         "0102"
       ],
       "maintenance": "5",
@@ -612,8 +541,6 @@
       "content": "Plant persimmons in well-draining soil with plenty of sunlight and water regularly, especially during fruit development.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0102",
-        "0110",
         "0112"
       ],
       "maintenance": "6",
@@ -629,7 +556,6 @@
       "content": "Plant pear trees in a location with well-draining soil and full sun exposure, and regularly prune to encourage strong, healthy growth and optimal fruit production.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0002",
         "0112"
       ],
       "maintenance": "6",
@@ -660,9 +586,6 @@
       "content": "Figs grow best in a warm, sunny location with well-draining soil, regular watering and pruning, and protection from pests and diseases.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0010",
-        "0110",
-        "0112",
         "0012"
       ],
       "maintenance": "4",
@@ -678,9 +601,7 @@
       "content": "Plant lime trees in well-draining soil, in a location with full sun and protection from strong winds, and water regularly while allowing the soil to dry out slightly between watering.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0010",
-        "0110",
-        "0011"
+        "0010"
       ],
       "maintenance": "6",
       "timeToGrow": "3",
@@ -695,8 +616,6 @@
       "content": "Plant kiwi in well-drained soil, provide adequate support for the vine to climb, and ensure that it gets full sun exposure while being protected from harsh winds.",
       "color": "var(--fruitBlue)",
       "index": [
-        "0010",
-        "0101",
         "0102"
       ],
       "maintenance": "6",
@@ -733,21 +652,6 @@
       "timeToGrow": "8",
       "difficulty": "6",
       "sunExposure": "9",
-      "roomToGrow": "7"
-    },
-    {
-      "title": "Passionfruit",
-      "type": "fruit",
-      "img": "/fruitsAndVeggiesImages/passionfruit.svg",
-      "content": "Plant passionfruit in well-draining soil, provide adequate water and sunlight, and prune regularly to promote healthy growth and fruit production.",
-      "color": "var(--fruitBlue)",
-      "index": [
-        "0110"
-      ],
-      "maintenance": "6",
-      "timeToGrow": "7",
-      "difficulty": "5",
-      "sunExposure": "8",
       "roomToGrow": "7"
     },
     {
