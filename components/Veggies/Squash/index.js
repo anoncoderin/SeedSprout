@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Router from "next/router";
-import styles from "@/components/Veggies/Kale/Kale.module.css";
 import { useRouter } from "next/router";
+import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import Chart from "@/components/Chart";
 
-export default function Kale() {
+export default function Squash({}) {
   const router = useRouter();
   return (
     <>
@@ -12,50 +11,50 @@ export default function Kale() {
         <div className={styles.produce_description}>
           {
             <div>
-              <h1 className={styles.header}>Kale</h1>
+              <h1 className={styles.header}>Squash</h1>
               <Image
-                src={"/fruitsAndVeggiesImages/Kale.svg"}
+                src={"/fruitsAndVeggiesImages/Squash.svg"}
                 width={360}
                 height={216}
               />
               <div className={styles.tips}>
-                <h1 className={styles.header_tips}>Tips on growing Kale</h1>
+                <h1 className={styles.header_tips}>Tips on growing Squash</h1>
 
                 <div className={styles.numbered_tips}>
                   <h2 className={styles.numbered}>1.</h2>{" "}
                   <p>
-                    Harvesting: Kale leaves can be harvested when they are young
-                    and tender, or when they are mature and more
-                    substantial.Kale is a cool-season crop that grows best in
-                    temperatures between 60°F and 65°F (15°C to 18°C). It can be
-                    grown in both spring and fall.
+                    Harvesting: Summer squash is ready to harvest when the it is
+                    still young and tender, typically when it is 6-8 inches
+                    long.
                   </p>
                 </div>
 
                 <div className={styles.numbered_tips}>
                   <h2 className={styles.numbered}>2.</h2>{" "}
                   <p>
-                    Storage: Store in the refrigerator. Don't wash until ready
-                    to use and Use within a few days.
+                    Storage: Summer squash should be used or refrigerated as
+                    soon as possible after harvesting, as it can quickly lose
+                    its freshness and become rubbery.
                   </p>
                 </div>
 
                 <div className={styles.numbered_tips}>
                   <h2 className={styles.numbered}>3.</h2>{" "}
                   <p>
-                    Sun and water requirements: Kale is a cool-season crop that
-                    requires consistent moisture and partial sunlight to grow
-                    well.
+                    Sun and water requirements: Squash requires full sun, which
+                    means at least 6-8 hours of direct sunlight per day. Squash
+                    requires full sun, which means at least 6-8 hours of direct
+                    sunlight per day.
                   </p>
                 </div>
-                <Chart 
-                mNum={5} 
-                ttfgNum={6} 
-                dcNum={3} 
-                seNum={7} 
-                rtgNum={5} 
-                name="Kale"
-              />
+                <Chart
+                  mNum={6}
+                  ttfgNum={7}
+                  dcNum={6}
+                  seNum={8}
+                  rtgNum={7}
+                  name="Squash"
+                />
               </div>
               <div>
                 {" "}

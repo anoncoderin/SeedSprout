@@ -56,11 +56,11 @@ export default function Cilantro({}) {
                 </div>
                 <Chart 
                 mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                ttfgNum={4} 
+                dcNum={5} 
+                seNum={6} 
+                rtgNum={4} 
+                name="Cilantro"
               />
               </div>
               <div>

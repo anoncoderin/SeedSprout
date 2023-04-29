@@ -53,11 +53,11 @@ export default function Cauliflower({}) {
                 </div>
                 <Chart 
                 mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                ttfgNum={8} 
+                dcNum={7} 
+                seNum={6} 
+                rtgNum={6} 
+                name="Cauliflower"
               />
               </div>
               <div>

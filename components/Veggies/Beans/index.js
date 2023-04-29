@@ -47,12 +47,12 @@ export default function Beet({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
+                mNum={4} 
+                ttfgNum={6} 
+                dcNum={4} 
                 seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                rtgNum={6} 
+                name="Beans"
               />
               </div>
               <div>

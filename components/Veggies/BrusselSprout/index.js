@@ -51,12 +51,12 @@ export default function BrusselSprout({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                mNum={7} 
+                ttfgNum={8} 
+                dcNum={7} 
+                seNum={7} 
+                rtgNum={6} 
+                name="Brussel Sprouts"
               />
               </div>
               <div>

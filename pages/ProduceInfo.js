@@ -17,7 +17,10 @@ import Broccoli from "@/components/Veggies/Broccoli";
 import Turnip from "@/components/Veggies/Turnip";
 import Beet from "@/components/Veggies/Beet";
 import SweetPotato from "@/components/Veggies/SweetPotato";
+import Eggplant from "@/components/Veggies/Eggplant";
 import Peas from "@/components/Veggies/Peas";
+import Chard from "@/components/Veggies/Chard";
+import Squash from "@/components/Veggies/Squash";
 import Cherries from "@/components/Fruits/Cherries";
 import Cranberries from "@/components/Fruits/Cranberries";
 import Cucumbers from "@/components/Fruits/Cucumbers";
@@ -38,6 +41,8 @@ import Strawberries from "@/components/Fruits/Strawberries";
 import Blackberries from "@/components/Fruits/Blackberries";
 import Tomatoes from "@/components/Fruits/Tomatoes";
 import Watermelon from "@/components/Fruits/Watermelon";
+import Squash from "@/components/Veggies/Squash";
+import Garlic from "@/components/Veggies/Garlic";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -83,7 +88,16 @@ export default function ProduceInfo() {
     return <SweetPotato />
   } else if (text == "Peas") {
     return <Peas />
-  } else if (text == "Apples") {
+  }else if (text == "Eggplant") {
+    return <Eggplant />
+  }else if (text == "Chard") {
+    return <Chard />
+  }else if (text == "Squash") {
+    return <Squash />
+  }else if (text == "Garlic") {
+    return <Garlic />
+  }
+   else if (text == "Apples") {
     return <Apples />
   } else if (text == "Apricots") {
     return <Apricots />

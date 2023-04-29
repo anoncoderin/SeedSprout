@@ -49,12 +49,12 @@ export default function Cabbage({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
+                mNum={7} 
+                ttfgNum={8} 
                 dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                seNum={6} 
+                rtgNum={6} 
+                name="Cabbage"
               />
               </div>
               <div>

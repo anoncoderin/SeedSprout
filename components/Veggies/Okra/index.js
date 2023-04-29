@@ -51,12 +51,12 @@ export default function Okra({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
+                mNum={5} 
                 ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
+                dcNum={5} 
+                seNum={9} 
                 rtgNum={7} 
-                name="Apples"
+                name="Okra"
               />
               </div>
               <div>

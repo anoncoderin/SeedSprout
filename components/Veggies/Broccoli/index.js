@@ -53,9 +53,9 @@ export default function Broccoli({}) {
                 mNum={6} 
                 ttfgNum={7} 
                 dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                seNum={7} 
+                rtgNum={6} 
+                name="Broccoli"
               />
               </div>
               <div>

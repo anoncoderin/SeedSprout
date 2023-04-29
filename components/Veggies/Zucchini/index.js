@@ -49,12 +49,12 @@ export default function Zucchini({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
+                mNum={5} 
+                ttfgNum={6} 
+                dcNum={5} 
                 seNum={8} 
                 rtgNum={7} 
-                name="Apples"
+                name="Zucchini"
               />
               </div>
               <div>

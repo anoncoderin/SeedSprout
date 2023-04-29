@@ -41,12 +41,12 @@ export default function Potato({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
+                mNum={5} 
+                ttfgNum={8} 
                 dcNum={6} 
-                seNum={8} 
+                seNum={6} 
                 rtgNum={7} 
-                name="Apples"
+                name="Potato"
               />
               </div>
               <div>

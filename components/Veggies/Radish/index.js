@@ -48,12 +48,12 @@ export default function Radish({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                mNum={3} 
+                ttfgNum={5} 
+                dcNum={3} 
+                seNum={7} 
+                rtgNum={5} 
+                name="Radish"
               />
               </div>
               <div>

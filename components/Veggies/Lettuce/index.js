@@ -49,12 +49,12 @@ export default function Lettuce({}) {
                   </p>
                 </div>
                 <Chart 
-                mNum={6} 
-                ttfgNum={7} 
-                dcNum={6} 
-                seNum={8} 
-                rtgNum={7} 
-                name="Apples"
+                mNum={4} 
+                ttfgNum={3} 
+                dcNum={3} 
+                seNum={5} 
+                rtgNum={6} 
+                name="Lettuce"
               />
               </div>
               <div>
