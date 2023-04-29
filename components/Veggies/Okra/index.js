@@ -2,6 +2,7 @@ import Image from "next/image";
 import Router from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import { useRouter } from "next/router";
+import Chart from "@/components/Chart";
 
 export default function Okra({}) {
   const router = useRouter();
@@ -49,6 +50,14 @@ export default function Okra({}) {
                     that requires plenty of sun and water to grow well.
                   </p>
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}

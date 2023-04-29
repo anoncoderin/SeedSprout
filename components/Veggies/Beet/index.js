@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import Chart from "@/components/Chart";
 
 export default function Beet({}) {
   const router = useRouter();
@@ -48,7 +49,16 @@ export default function Beet({}) {
                     or twice a week, making sure the soil is moist to a depth of
                     at least 6 inches.
                   </p>
+                 
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}

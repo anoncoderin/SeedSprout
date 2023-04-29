@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import Chart from "@/components/Chart";
 
 export default function Carrot({}) {
   const router = useRouter();
@@ -45,6 +46,14 @@ export default function Carrot({}) {
                     least 6 hours of direct sunlight per day.
                   </p>
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import Chart from "@/components/Chart";
 
 export default function BellPepper({}) {
   const router = useRouter();
@@ -48,6 +49,14 @@ export default function BellPepper({}) {
                     soil is well-draining and doesn't get waterlogged.
                   </p>
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}

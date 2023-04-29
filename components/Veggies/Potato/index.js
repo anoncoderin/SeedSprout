@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
+import Chart from "@/components/Chart";
 
 export default function Potato({}) {
   const router = useRouter();
@@ -39,6 +40,14 @@ export default function Potato({}) {
                     Sun and water requirements: Potatoes require full sun to grow and produce a good yield, at least 6-8 hours of direct sunlight per day. Potatoes require consistent moisture, but it's important not to over-water them. Water them deeply once a week or more often if the weather is hot and dry.
                   </p>
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}

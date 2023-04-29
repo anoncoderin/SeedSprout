@@ -2,6 +2,7 @@ import Image from "next/image";
 import Router from "next/router";
 import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import { useRouter } from "next/router";
+import Chart from "@/components/Chart";
 
 export default function Corn({}) {
   const router = useRouter();
@@ -49,6 +50,14 @@ export default function Corn({}) {
                     during hot and dry weather.
                   </p>
                 </div>
+                <Chart 
+                mNum={6} 
+                ttfgNum={7} 
+                dcNum={6} 
+                seNum={8} 
+                rtgNum={7} 
+                name="Apples"
+              />
               </div>
               <div>
                 {" "}
