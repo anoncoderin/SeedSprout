@@ -41,7 +41,6 @@ import Strawberries from "@/components/Fruits/Strawberries";
 import Blackberries from "@/components/Fruits/Blackberries";
 import Tomatoes from "@/components/Fruits/Tomatoes";
 import Watermelon from "@/components/Fruits/Watermelon";
-import Squash from "@/components/Veggies/Squash";
 import Garlic from "@/components/Veggies/Garlic";
 
 export default function ProduceInfo() {
