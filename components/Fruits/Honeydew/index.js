@@ -3,7 +3,7 @@ import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import Button from "@/components/Button";
 import { useRouter } from "next/router";
 import Chart from "@/components/Chart";
-
+import ResultsButton from "@/components/ResultsButton"
 
 export default function Honeydew() {
     const router = useRouter();
@@ -55,8 +55,7 @@ export default function Honeydew() {
                             />
                         </div>
                         <div>
-                            {" "}
-                            <button onClick={() => router.back()}>Back</button>{" "}
+                        <ResultsButton />
                         </div>
                     </div>
                 </div>

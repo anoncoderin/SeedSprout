@@ -42,6 +42,7 @@ import Blackberries from "@/components/Fruits/Blackberries";
 import Tomatoes from "@/components/Fruits/Tomatoes";
 import Watermelon from "@/components/Fruits/Watermelon";
 import Garlic from "@/components/Veggies/Garlic";
+import Apples from "@/components/Fruits/Apples";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -97,7 +98,7 @@ export default function ProduceInfo() {
     return <Garlic />
   }
    else if (text == "Apples") {
-    return <Apples />
+    return <Apples/>
   } else if (text == "Apricots") {
     return <Apricots />
   } else if (text == "Blackberries") {

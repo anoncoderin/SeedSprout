@@ -3,7 +3,7 @@ import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import Button from "@/components/Button";
 import { useRouter } from "next/router";
 import Chart from "@/components/Chart";
-
+import ResultsButton from "@/components/ResultsButton"
 
 export default function Strawberries() {
     const router = useRouter();
@@ -48,8 +48,7 @@ export default function Strawberries() {
                             />
                         </div>
                         <div>
-                            {" "}
-                            <button onClick={() => router.back()}>Back</button>{" "}
+                        <ResultsButton />
                         </div>
                     </div>
                 </div>

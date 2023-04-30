@@ -3,7 +3,7 @@ import styles from "@/components/ResultsInfo/ResultsInfo.module.css";
 import Button from "@/components/Button";
 import { useRouter } from "next/router";
 import Chart from "@/components/Chart";
-
+import ResultsButton from "@/components/ResultsButton"
 
 export default function Pears() {
     const router = useRouter();
@@ -45,8 +45,7 @@ export default function Pears() {
                             />
                         </div>
                         <div>
-                            {" "}
-                            <button onClick={() => router.back()}>Back</button>{" "}
+                        <ResultsButton />
                         </div>
                     </div>
                 </div>
