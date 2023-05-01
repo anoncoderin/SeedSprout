@@ -28,16 +28,7 @@ export default function IntroPage() {
               <p className={styles.p2}>Learn more below about gardening and take a quiz to choose what fruits or vegetables you can grow based on your answers!</p>
             </p>
             <br></br>
-            <p>
-              <h1 className={styles.ph1}>Did you know?...</h1>
-              Buying fruits and vegetables from the store can cause more harm than
-              good? It can causea negative impact on the world through green house
-              gasses and harm to your own body through pesticide. Maybe its time
-              you grew your own produce? <br />
-              <p className={styles.p2}>Check out the infographic below about
-                the benefits of gardening.</p>
-            </p>
-          </div>
+            </div>
           <br></br>
 
           <div className={styles.inner_container}>
