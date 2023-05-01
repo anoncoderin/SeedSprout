@@ -7,7 +7,8 @@ import TopBar from '@/components/TopBar'
 
 
 export default function AboutUs() {
-    var title = process.env.NEXT_PUBLIC_TITLE
+    var title = process.env.NEXT_PUBLIC_TITLE;
+    
 
     return (
         <>
@@ -48,6 +49,7 @@ export default function AboutUs() {
                     </div>
 
                 </div>
+              
             </main>
         </>
     )
