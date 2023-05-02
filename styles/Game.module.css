@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/graphics/gameBackground.svg);
+    background-size: 101%;
+}
+
+.imageContainer {
+    position: absolute;
+    pointer-events: none;
+}
+
+.insect1 {
+    position: relative;
+    left: 30px;
+    bottom: 220px;
+
+}
+
+.insect2 {
+    position: relative;
+    right: 120px;
+    bottom: 175px;
+
+}
+
+.insect3 {
+    position: relative;
+    right: 5px;
+    bottom: 90px;
+
+}
+
+.insect4 {
+    position: relative;
+    left: 10px;
+    top: 190px;
+
+}
+
+.insect5 {
+    position: relative;
+    right: 50px;
+    top: 10px;
+
+}
+
+.PlayAgain {
+    position: absolute;
+    bottom: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--mantisGreen);
+    color: aliceblue;
+    width: 11rem;
+    height: 2.905rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 150%;
+
+}
+
+.tutorial{
+position: absolute;
+top: 25px;
+color: var(--polyGreen);
+font-size: 130%;
+}
