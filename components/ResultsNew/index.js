@@ -46,6 +46,7 @@ export default function ResultsNew(userinput) {
             )
           )}
       </div>
+     
     </>
   );
 }

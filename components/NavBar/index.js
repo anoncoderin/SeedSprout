@@ -30,7 +30,16 @@ export default function NavBar() {
             </div>
           </Link>
         </div>
+        <div className={styles.gameContainer}>
+          <Link href='/Game'>
+            <div className={styles.itemContainer}>
+              <Image src='/icons/gameIcon.svg' width={30} height={30} />
+             Game
+            </div>
+          </Link>
+        </div>
       </div>
+      
     </>
   )
 }

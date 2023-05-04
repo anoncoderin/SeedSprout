@@ -4,7 +4,6 @@
     font-family: 'Jost', sans-serif;
     font-size: 150%;
     background-color: var(--seedBrown);
-    transition: 0.1s;
     border-radius: 15px;
     color: white;
     display: flex;
@@ -18,7 +17,3 @@
     align-items: center;
 }
 
-.linkContainer:active {
-    transform: translateY(5px);
-    transition: 0.1s;
-}

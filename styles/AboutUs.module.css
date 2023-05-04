@@ -29,7 +29,7 @@
 .section {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 90px;
     margin-bottom: 70px;
     margin-top: 20px;
 }
@@ -37,7 +37,7 @@
 .section_madhu {
     display: flex;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 40px;
     margin-right: 10px;
     margin-bottom: 22px;
 }
@@ -62,12 +62,21 @@
     text-align: center;
     font-family: 'Jost';
     font-size: 16px;
+    text-align: start;
+    line-height: 20px;
+    
 }
 
 .name {
     font-size: 24px;
     font-family: 'Jost';
 }
+
+.image{
+    position: relative;
+   left: 50px;
+}
+
 
 
 
@@ -77,3 +86,4 @@
         margin-right: 200px;
     }
 }
+
