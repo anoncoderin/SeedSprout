@@ -14,7 +14,7 @@ export default function Kale() {
             <div>
               <h1 className={styles.header}>Kale</h1>
               <Image
-                src={"/fruitsAndVeggiesImages/Kale.svg"}
+                src={"/fruitsAndVeggiesImages/kale.svg"}
                 width={360}
                 height={216}
               />

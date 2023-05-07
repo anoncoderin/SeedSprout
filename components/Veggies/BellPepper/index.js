@@ -13,7 +13,7 @@ export default function BellPepper({}) {
             <div>
               <h1 className={styles.header}>Bell Pepper</h1>
               <Image
-                src={"/fruitsAndVeggiesImages/Carrots.svg"}
+                src={"/fruitsAndVeggiesImages/Peppers.svg"}
                 width={360}
                 height={216}
               />
