@@ -29,7 +29,7 @@
 
 .accordionSection {
     border-color: var(--polyGreen);
-    border-top: solid;
+    /**border-top: solid;*/
     border-bottom: solid;
     border-width: 0.1rem;
     padding: 0.4rem;

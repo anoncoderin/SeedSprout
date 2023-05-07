@@ -31,7 +31,7 @@ export default function Accordion() {
             <div className={styles.accordionSection} key={index}>
               {/**Runs function to open and close item*/}
               <div className={styles.accordionHeader} onClick={() => handleAccordionClick(index)}>
-                {item.title}
+                {item.title}{item.emoji}
                 <div className={styles.arrowContainer}>
                   {index === activeIndex ? <Image src='/icons/UpArrow.svg' width={22} height={22} /> : <Image src='/icons/DownArrow.svg' width={22} height={22} />}
                 </div>
@@ -61,7 +61,7 @@ export default function Accordion() {
               {/**Runs function to open and close item*/}
               <div className={styles.accordionHeader} onClick={() => handleAccordionClick(index)}>
 
-                {item.title}
+                {item.title}{item.emoji}
                 <div className={styles.arrowContainer}>
                   {index === activeIndex ? <Image src='/icons/UpArrow.svg' width={22} height={22} /> : <Image src='/icons/DownArrow.svg' width={22} height={22} />}
                 </div>
