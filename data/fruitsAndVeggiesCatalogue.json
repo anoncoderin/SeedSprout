@@ -34,7 +34,7 @@
     },
     {
       "title": "Radish",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Radishes.svg",
       "content": "Radishes are a fast-growing vegetable that can be grown in small spaces. They are also low maintenance and can be ready to harvest in as little as three weeks.",
@@ -83,7 +83,7 @@
     },
     {
       "title": "Pea",
-      "emoji":"🫛",
+      "emoji":"🟢",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Pea.svg",
       "content": "Pea is best planted in the early spring but also can be started in fall. It grows quickly, often yielding its first harvest of leaves within 30 days. Its seeds will be ready for harvest closer to three months from planting.",
@@ -253,7 +253,7 @@
     },
     {
       "title": "Okra",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Okra.svg",
       "content": "Okra is a warm-season vegetable that can be grown in small spaces. It requires regular watering, fertilizing, and pest control, and it is susceptible to a range of diseases.",
@@ -297,7 +297,7 @@
     },
     {
       "title": "Turnip",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/Turnip.svg",
       "content": "Turnips are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
@@ -311,7 +311,7 @@
     },
     {
       "title": "Beets",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "Vegetable",
       "img": "/fruitsAndVeggiesImages/BeetRoot.svg",
       "content": "Beets are a cool-season crop that can grow quite large and require minimal maintenance. They need well-draining soil, regular watering, and occasional fertilizing.",
@@ -385,7 +385,7 @@
     },
     {
       "title": "Blackberries",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/blackberries.svg",
       "content": "Plant blackberries in well-drained soil in a sunny location, prune regularly, and provide adequate water and fertilization for healthy growth.",
@@ -401,7 +401,7 @@
     },
     {
       "title": "Raspberries",
-      "emoji":"",
+      "emoji":"🌱",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/raspberries.svg",
       "content": "Plant raspberries in well-drained soil, prune annually, and provide ample sunlight and water for optimal growth.",
@@ -545,7 +545,7 @@
     },
     {
       "title": "Pomegranate",
-      "emoji":"",
+      "emoji":"🔴",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/pome.svg",
       "content": "Plant pomegranate in well-draining soil, provide full sun exposure, and water deeply once a week during the growing season.",
@@ -641,7 +641,7 @@
     },
     {
       "title": "Figs",
-      "emoji":"🫐",
+      "emoji":"🌱",
       "type": "fruit",
       "img": "/fruitsAndVeggiesImages/figs.svg",
       "content": "Figs grow best in a warm, sunny location with well-draining soil, regular watering and pruning, and protection from pests and diseases.",
