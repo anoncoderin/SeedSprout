@@ -84,7 +84,7 @@ export default function ProduceInfo() {
     return <Turnip />
   } else if (text == "Beet") {
     return <Beet />
-  } else if (text == "SweetPotato") {
+  } else if (text == "Sweet Potato") {
     return <SweetPotato />
   } else if (text == "Peas") {
     return <Peas />
