@@ -25,7 +25,7 @@ export default function AboutUs() {
             <Image className={styles.image} src="/graphics/neema.svg" width={100.4} height={144} />
             <div className={styles.description}>
               <h1 className={styles.name}>Neema</h1>
-              <p className={styles.role}> make it at least 2 lines but not too long </p>
+              <p className={styles.role}>Hey! I'm Neema. I like UI design and coding. I also like plants.</p>
             </div>
           </div>
 

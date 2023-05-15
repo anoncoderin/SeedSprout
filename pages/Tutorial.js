@@ -48,7 +48,7 @@ export default function Tutorial() {
           <br></br>
           <div className={styles.buttonContainer}>
             <Button size={["8.063rem", "3.813rem"]} text="Back" link="/IntroPage" color='var(--seedBrown)' />
-            <Button text="Continue to quiz" size={["12.063rem", "3.813rem"]} link="/QuizPage" color={'var(--mantisGreen'} />
+            <Button text="Continue to quiz" size={["12.063rem", "3.813rem"]} link="/QuizPage" color='var(--mantisGreen' />
           </div>
         </div>
       </main>
