@@ -5,7 +5,7 @@ import TopBar from '@/components/TopBar'
 import NavBar from '@/components/NavBar'
 
 export default function ProduceCatalogue() {
-    var hello = process.env.NEXT_PUBLIC_NAME;
+    var title = process.env.NEXT_PUBLIC_NAME;
     return (
         <>
             <Head>
@@ -17,10 +17,10 @@ export default function ProduceCatalogue() {
             <main className={styles.main}>
                 <TopBar />
                 <NavBar />
-                {hello}
+              
                 <div className={styles.catalogueContainer}>
                     <div>
-                        <h1 className={styles.pageHeader}>Produce Catalogue</h1>
+                        <h1 className={styles.pageHeader}>{title}</h1>
                         <h2 className={styles.pageSubHeader}>Tips on how you can grow your fruits and vegetables.</h2>
                     </div>
                     <Accordion />

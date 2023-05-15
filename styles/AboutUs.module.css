@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+   
 }
 
 .main {
@@ -31,7 +33,7 @@
     display: flex;
     justify-content: center;
     gap: 90px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     margin-top: 20px;
 }
 
@@ -81,10 +83,4 @@
 
 
 
-@media screen and (min-width:850px) {
-    .container {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-}
 

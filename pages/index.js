@@ -16,7 +16,7 @@ export default function Home() {
       rerender: "svg",
       loop: true,
       autoplay: true,
-      path: "/Animation/animationbackground.json"
+      path: "/Animation/background.json"
     })
 
     return () => anim.destroy();
