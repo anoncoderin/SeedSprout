@@ -38,7 +38,8 @@ export default function IntroPage() {
             </p>
           </div>
         </div>
-        
+        <br></br>
+        <br></br>
         <div className={styles.inner_container}>
           <h1 className={styles.h1_size}>The Benefits of Gardening</h1>
           <br></br>
