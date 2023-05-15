@@ -43,6 +43,8 @@ import Tomatoes from "@/components/Fruits/Tomatoes";
 import Watermelon from "@/components/Fruits/Watermelon";
 import Garlic from "@/components/Veggies/Garlic";
 import Apples from "@/components/Fruits/Apples";
+import Beans from "@/components/Veggies/Beans";
+import BellPepper from "@/components/Veggies/BellPepper";
 
 export default function ProduceInfo() {
   const router = useRouter();
@@ -62,7 +64,7 @@ export default function ProduceInfo() {
     return <Cilantro />
   } else if (text == "Carrot") {
     return <Carrot />
-  } else if (text == "BellPepper") {
+  } else if (text == "Bell Pepper") {
     return <BellPepper />
   } else if (text == "Potato") {
     return <Potato />
@@ -82,11 +84,11 @@ export default function ProduceInfo() {
     return <Broccoli />
   } else if (text == "Turnip") {
     return <Turnip />
-  } else if (text == "Beet") {
+  } else if (text == "Beets") {
     return <Beet />
   } else if (text == "Sweet Potato") {
     return <SweetPotato />
-  } else if (text == "Peas") {
+  } else if (text == "Pea") {
     return <Peas />
   }else if (text == "Eggplant") {
     return <Eggplant />
@@ -143,7 +145,10 @@ export default function ProduceInfo() {
     return <Tomatoes/>
   } else if (text == "Watermelon"){
     return <Watermelon/>
+  } else if (text == "Beans"){
+    return <Beans/>
   }
+
 
 
   // ...

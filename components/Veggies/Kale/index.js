@@ -3,6 +3,7 @@ import Router from "next/router";
 import styles from "@/components/Veggies/Kale/Kale.module.css";
 import { useRouter } from "next/router";
 import Chart from "@/components/Chart";
+import ResultsButton from "@/components/ResultsButton"
 
 export default function Kale() {
   const router = useRouter();
@@ -58,8 +59,7 @@ export default function Kale() {
               />
               </div>
               <div>
-                {" "}
-                <button onClick={() => router.back()}>Back</button>{" "}
+              <ResultsButton />
               </div>
             </div>
           }
