@@ -102,12 +102,7 @@ export default function IntroPage() {
           />
         </div>
         <div className={styles.footer_box}>
-          <Image
-            className={styles.footer_box_image}
-            src="/graphics/trees.svg"
-            width={1000}
-            height={18}
-          ></Image>
+          
           <div className={styles.footer_box_green}></div>
         </div>
       </main>
