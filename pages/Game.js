@@ -54,7 +54,7 @@ const DisappearingElement = () => {
         
       )}
         <p className={Styles.tutorial}>
-Save the plant by eliminating the pests!</p>
+Click on the pests to save the plant!</p>
 
     </div>
     
