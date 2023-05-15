@@ -1,7 +1,6 @@
 import Image from "next/image"
 import styles from '@/components/ResultsInfo/ResultsInfo.module.css'
 import Button from "../Button"
-import { produceInfo } from '@/data/produceInfo'
 
 
 export default function ResultsInfo({
