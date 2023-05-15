@@ -10,16 +10,7 @@ import { createRef, useEffect } from "react";
 export default function IntroPage() {
   let animationContainer = createRef();
 
-  useEffect(() => {
-    const anim = lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      path: "/Animation/sprout.json",
-    });
-    return () => anim.destroy();
-  }, []);
+  
   return (
     <>
       <Head>
@@ -47,7 +38,7 @@ export default function IntroPage() {
             </p>
           </div>
         </div>
-        <div className={styles.animation_container} ref={animationContainer} />
+        
         <div className={styles.inner_container}>
           <h1 className={styles.h1_size}>The Benefits of Gardening</h1>
           <br></br>
