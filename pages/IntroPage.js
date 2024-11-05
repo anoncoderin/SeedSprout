@@ -101,10 +101,7 @@ export default function IntroPage() {
             color="var(--mantisGreen)"
           />
         </div>
-        <div className={styles.footer_box}>
-          
-          <div className={styles.footer_box_green}></div>
-        </div>
+        
       </main>
     </>
   );

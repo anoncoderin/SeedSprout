@@ -20,12 +20,14 @@ export default function AboutUs() {
         <NavBar />
         <h1 className={styles.Header}>About Us</h1>
         <h1 className={styles.Header}>{title}</h1>
+
         <div className={styles.container}>
+
           <div className={styles.section}>
             <Image className={styles.image} src="/graphics/neema.svg" width={100.4} height={144} />
             <div className={styles.description}>
               <h1 className={styles.name}>Neema</h1>
-              <p className={styles.role}>Hey! I'm Neema. I like UI design and coding. I also like plants.</p>
+              <p className={styles.role}>Hey! I'm Neema. I'm a front-end developer. I also like plants.</p>
             </div>
           </div>
 
@@ -46,6 +48,7 @@ export default function AboutUs() {
               <p className={styles.role}>Hello! I'm Jenny, who has a passion for design and illustration</p>
             </div>
           </div>
+
         </div>
       </main>
     </>

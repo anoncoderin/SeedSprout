@@ -17,6 +17,8 @@ const DisappearingElement = () => {
   }
 
   return (
+    <>
+    
     <div className={Styles.container}>
     
       <div className={Styles.insect1}>
@@ -48,7 +50,7 @@ const DisappearingElement = () => {
         <Image src={"/graphics/bugs.svg"} width={80} height={116} />
         </div>
       </div>
-      <NavBar/>
+     
       {visible.some(v => v === false) && (
         <button className={Styles.PlayAgain} onClick={handlePlayAgain}>Play Again</button>
         
@@ -57,7 +59,8 @@ const DisappearingElement = () => {
 Click on the pests to save the plant!</p>
 
     </div>
-    
+    <NavBar/>
+    </>
   );
 };
 

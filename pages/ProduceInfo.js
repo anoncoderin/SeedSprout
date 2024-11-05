@@ -1,5 +1,6 @@
 import ResultsInfo from "@/components/ResultsInfo";
 import { useRouter } from 'next/router';
+import Apricots from "@/components/Fruits/Apricots"
 import Blueberries from "@/components/Fruits/Blueberries";
 import Kale from "@/components/Veggies/Kale";
 import Corn from "@/components/Veggies/Corn";

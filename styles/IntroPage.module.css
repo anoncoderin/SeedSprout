@@ -8,14 +8,14 @@
     font-size: 40px;
     font-weight: bold;
     font-family: 'Jost';
-    margin: 0;
 }
 
 .welcomeHeader {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Jost';
-
+  
+    margin-bottom: 0;
 
 }
 
@@ -27,8 +27,8 @@
 .para_main {
     display: flex;
     flex-direction: column;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     text-align: left;
 }
 
@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
-    margin-bottom: -2rem;
+    height: 10rem;
     gap: 1rem;
+    padding-bottom: 3rem;
 }

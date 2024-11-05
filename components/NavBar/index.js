@@ -5,6 +5,7 @@ import styles from './NavBar.module.css'
 export default function NavBar() {
   return (
     <>
+    <div style={{marginTop: '6rem'}}>
       <div className={styles.navBarContainer}>
         <div className={styles.homeContainer}>
           <Link href='/'>
@@ -39,7 +40,7 @@ export default function NavBar() {
           </Link>
         </div>
       </div>
-      
+      </div>
     </>
   )
 }
